@@ -8,6 +8,7 @@
     "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "editorconfig": "^0.14.1",
     "eslint": "^4.8.0",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.2.0",
