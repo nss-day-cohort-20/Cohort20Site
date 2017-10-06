@@ -1,12 +1,3 @@
-# Cohort20Site
-
-This a repo for the website of [Nashville Software School's](http://nashvillesoftwareschool.com/) **20th cohort**
-
-It is currently being build with Bootstrap 4, jQuery, Sass, Browserify, and Handlebars.
-
-Stay tuned for:
-- [ ] a link to deployed site
-
 ### Contributing
 This site is being developed by cohort 20 students to showcase what we have learned. If you need access, please notify via the #day-cohort-20 Slack channel.
 
@@ -17,5 +8,3 @@ We are also using editorconfig and eslint to keep the code clean. Depending on y
 Also note that we are using the latest version of Bootstrap (4.0.0 Beta), which may differ a bit from what you are used to.  The docs are [here](https://getbootstrap.com/docs/4.0/components/alerts/).
 
 If you are not a c20 student but really want to contribute, feel free to fork and make a pull request!
-
-
