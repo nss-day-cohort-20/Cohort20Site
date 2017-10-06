@@ -12,6 +12,8 @@ This site is being developed by cohort 20 students to showcase what we have lear
 
 To work on the project, you will need to have Node.js and npm installed/updated, clone the repo, and run npm install in the lib directory.
 
+We are also using editorconfig and eslint to keep the code clean. Depending on your choice of editor, you may need to install plugins and/or install the npm package globally.
+
 If you are not a c20 student but want to contribute, feel free to fork and make a pull request, though!
 
 
