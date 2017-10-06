@@ -2,7 +2,7 @@
 
 This a repo for the website of [Nashville Software School's](http://nashvillesoftwareschool.com/) **20th cohort**
 
-It is currently being build with Bootstrap 4, jQuery, Sass, Browserify, and Handlebars.
+It is currently being built with Bootstrap 4, jQuery, Sass, Browserify, and Handlebars.
 
 Stay tuned for:
 - [ ] a link to deployed site
