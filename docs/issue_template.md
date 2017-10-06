@@ -1,6 +1,6 @@
-### The User should be able to:
+### User should be able to:
 
-### Changes required:
+### Changes needed:
 
 ### Related Issue:
 #
