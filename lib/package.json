@@ -1,0 +1,37 @@
+{
+	"name": "cohortweb",
+	"version": "1.0.0",
+	"description": "Class Website for NSS Cohort 20",
+	"main": "index.js",
+	"dependencies": {
+		"bootstrap": "^4.0.0-beta",
+		"jquery": "^3.2.1"
+	},
+	"devDependencies": {
+		"editorconfig": "^0.14.1",
+		"eslint": "^4.8.0",
+		"grunt": "^1.0.1",
+		"grunt-browserify": "^5.2.0",
+		"grunt-contrib-imagemin": "^2.0.1",
+		"grunt-contrib-sass": "^1.0.0",
+		"grunt-contrib-uglify": "^3.1.0",
+		"grunt-contrib-watch": "^1.0.0",
+		"handlebars": "^4.0.10",
+		"hbsfy": "^2.7.0",
+		"matchdep": "^2.0.0",
+		"popper.js": "^1.12.5"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nss-day-cohort-20/Cohort20Site.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nss-day-cohort-20/Cohort20Site/issues"
+	},
+	"homepage": "https://github.com/nss-day-cohort-20/Cohort20Site#readme"
+}
