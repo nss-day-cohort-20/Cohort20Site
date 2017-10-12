@@ -8,5 +8,7 @@ let $ = require('jquery');
 const Handlebars = require('handlebars');
 
 let photogrid = require('../templates/photo_grid.hbs');
+let loadNav = require('../templates/navbar.hbs');
 
+$('#navBar').append(loadNav);
 $('#photoGrid').append(photogrid);
