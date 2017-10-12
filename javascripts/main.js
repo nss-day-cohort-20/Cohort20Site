@@ -5,4 +5,8 @@ window.Popper = require('Popper.js');
 require('bootstrap');
 
 let $ = require('jquery');
-var Handlebars = require('handlebars');
+const Handlebars = require('handlebars');
+
+let photogrid = require('../templates/photo_grid.hbs');
+
+$('#photoGrid').append(photogrid);
