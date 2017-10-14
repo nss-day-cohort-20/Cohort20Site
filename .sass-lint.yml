@@ -1,0 +1,9 @@
+rules:
+ indentation:
+  - 2
+  -
+   size: tab
+
+ leading-zero:
+  - 1
+  - include: true

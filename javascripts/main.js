@@ -1,7 +1,7 @@
 'use strict';
 // dependencies
 let $ = require('jquery');
-const Handlebars = require('handlebars');
+require('handlebars');
 
 // handlebars templates
 let loadNav = require('../templates/navbar.hbs');

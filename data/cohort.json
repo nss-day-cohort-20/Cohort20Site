@@ -12,12 +12,14 @@
 		},
 		{
 			"name": "Jon Roberts",
-			"linkedIn_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/jon-roberts",
 			"personal_site": null,
-			"github_url": null,
+			"github_url": "https://github.com/thejonroberts",
 			"pro_img": "../images/individual/jon.jpg",
 			"fun_img": "../images/individual/jonFun.jpg",
-			"about_me": null,
+			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
+			"about_me":
+				"Some quick example text to build on the card title and make up the bulk of the card's content.",
 			"soundcloud_url": null
 		},
 		{
@@ -37,7 +39,8 @@
 			"github_url": null,
 			"pro_img": "../images/individual/megan.jpg",
 			"fun_img": "../images/individual/meganFun.jpg",
-			"about_me": null,
+			"about_me":
+				"Some quick example text to build on the card title and make up the bulk of the card's content.",
 			"soundcloud_url": null
 		},
 		{

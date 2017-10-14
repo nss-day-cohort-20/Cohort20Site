@@ -2,22 +2,22 @@
 	{{#each cohort}}
 	<div class="col">
 		<div class="card" style="width: 20rem;">
-			<div class="overlayContainer">
-				<img src="{{pro_img}}" alt="Avatar" class="cardImage card-img-top">
+			<div class="overlay-container">
+				<img src="{{pro_img}}" alt="{{name}}" class="profile-pic card-img-top">
 				<div class="overlay">
 					<div class="card-body">
 						<p class="description">
-							Some quick example text to build on the card title and make up the bulk of the card's content.
+							{{about_me}}
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="inline">
-				<a href="#" class="card-link">
-					<img src="images/icons/GitHub-Mark-64px.png" alt="GitHub Icon" class="mh-100">
+				<a href="{{github_url}}" target="_blank" class="card-link">
+					<img src="images/icons/GitHub-Mark-64px.png" alt="GitHub Icon" width="30" height="30">
 				</a>
-				<a href="#" class="card-link">
-					<img src="images/icons/In-Black-66.png" alt="LinkedIn Icon">
+				<a href="{{linkedIn_url}}" target="_blank" class="card-link">
+					<img src="images/icons/In-Black-66.png" alt="LinkedIn Icon" width="30" height="30">
 				</a>
 			</div>
 		</div>
