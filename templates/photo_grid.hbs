@@ -1,17 +1,17 @@
 <div class="row">
-
+	{{#each cohort}}
 	<div class="col">
 		<div class="card" style="width: 20rem;">
-			<img class="card-img-top" src="images/finalindividual/joshlloydFun.jpg" alt="Card image cap">
-			<div class="card-body collapse" id="collapseExample">
-				{{!-- TODO this caption div should show (uncollapse) up, on top of the image --}}
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<div class="overlayContainer">
+				<img src="{{pro_img}}" alt="Avatar" class="cardImage card-img-top">
+				<div class="overlay">
+					<div class="card-body">
+						<p class="description">
+							Some quick example text to build on the card title and make up the bulk of the card's content.
+						</p>
+					</div>
+				</div>
 			</div>
-			{{!-- TODO this button should be removed and functionality (show collapsed content) replaced in JS --}}
-			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-			 aria-controls="collapseExample">
-				Show
-			</button>
 			<div class="inline">
 				<a href="#" class="card-link">
 					<img src="images/icons/GitHub-Mark-64px.png" alt="GitHub Icon" class="mh-100">
@@ -22,20 +22,6 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="col">
-		<div class="card" style="width: 20rem;">
-			<div class="overlayContainer">
-				<img src="images/finalindividual/joshlloydFun.jpg" alt="Avatar" class="cardImage card-img-top">
-				<div class="overlay">
-					<div class="card-body">
-						<p class="description">
-							Some quick example text to build on the card title and make up the bulk of the card's content.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	{{/each}}
 
 </div>

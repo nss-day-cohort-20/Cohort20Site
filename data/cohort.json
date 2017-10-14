@@ -1,213 +1,213 @@
 {
-    "cohort": [
-        {
-            "name": "Arwa Kuterwadliwala",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/arwa.jpg",
-            "fun_img": "../images/arwaFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Jon Roberts",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/jon.jpg",
-            "fun_img": "../images/jonFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Emily Lemmon",
-            "linkedIn_url": "https://www.linkedin.com/in/emily-c-lemmon-59479513/",
-            "personal_site": "https://rian501.github.io/",
-            "github_url": "https://github.com/rian501",
-            "pro_img": "../images/emily.jpg",
-            "fun_img": "../images/emilyFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Megan Brown",
-            "linkedIn_url": null,
-            "personal_site": "meganbrown.codes",
-            "github_url": null,
-            "pro_img": "../images/megan.jpg",
-            "fun_img": "../images/meganFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Greta Moseley",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/greta.jpg",
-            "fun_img": "../images/gretaFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Chris Mellor",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/chris.jpg",
-            "fun_img": "../images/chrisFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Jason Rial",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/jason.jpg",
-            "fun_img": "../images/jasonFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Cait Rocco",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/cait.jpg",
-            "fun_img": "../images/caitFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Glen Vollmer",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/glen.jpg",
-            "fun_img": "../images/glenFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Jevon Thomas",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/jevon.jpg",
-            "fun_img": "../images/jevonFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Sam Baker",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/sambaker.jpg",
-            "fun_img": "../images/sambakerFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Alana Smith",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": "../images/alana.jpg",
-            "fun_img": "../images/alanaFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Aspen Humphrey",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/aspen.jpg",
-            "fun_img": "../images/aspenFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Bobby Shunk",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/bobby.jpg",
-            "fun_img": "../images/bobbyFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "David Brown",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/davidbrown.jpg",
-            "fun_img": "../images/davidbrownFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "David Regan",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/davidregan.jpg",
-            "fun_img": "../images/davidreganFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Dustin Walker",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/dustin.jpg",
-            "fun_img": "../images/dustinFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Joshua Lloyd",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/joshlloyd.jpg",
-            "fun_img": "../images/joshlloydFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Josh Meyers",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/joshmeyers.jpg",
-            "fun_img": "../images/joshmeyersFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Jules Sepulveda",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/jules.jpg",
-            "fun_img": "../images/julesFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        },
-        {
-            "name": "Sam Staff",
-            "linkedIn_url": null,
-            "personal_site": null,
-            "github_url": null,
-            "pro_img": "../images/samstaff.jpg",
-            "fun_img": "../images/samstaffFun.jpg",
-            "about_me": null,
-            "soundcloud_url": null
-        }
-    ]
+	"cohort": [
+		{
+			"name": "Arwa Kuterwadliwala",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/arwa.jpg",
+			"fun_img": "../images/individual/arwaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jon Roberts",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/jon.jpg",
+			"fun_img": "../images/individual/jonFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Emily Lemmon",
+			"linkedIn_url": "https://www.linkedin.com/in/emily-c-lemmon-59479513/",
+			"personal_site": "https://rian501.github.io/",
+			"github_url": "https://github.com/rian501",
+			"pro_img": "../images/individual/emily.jpg",
+			"fun_img": "../images/individual/emilyFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Megan Brown",
+			"linkedIn_url": null,
+			"personal_site": "meganbrown.codes",
+			"github_url": null,
+			"pro_img": "../images/individual/megan.jpg",
+			"fun_img": "../images/individual/meganFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Greta Moseley",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/greta.jpg",
+			"fun_img": "../images/individual/gretaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Chris Mellor",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/chris.jpg",
+			"fun_img": "../images/individual/chrisFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jason Rial",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/jason.jpg",
+			"fun_img": "../images/individual/jasonFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Cait Rocco",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/cait.jpg",
+			"fun_img": "../images/individual/caitFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Glen Vollmer",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/glen.jpg",
+			"fun_img": "../images/individual/glenFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jevon Thomas",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/jevon.jpg",
+			"fun_img": "../images/individual/jevonFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Sam Baker",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/sambaker.jpg",
+			"fun_img": "../images/individual/sambakerFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Alana Smith",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": "../images/individual/alana.jpg",
+			"fun_img": "../images/individual/alanaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Aspen Humphrey",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/aspen.jpg",
+			"fun_img": "../images/individual/aspenFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Bobby Shunk",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/bobby.jpg",
+			"fun_img": "../images/individual/bobbyFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "David Brown",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/davidbrown.jpg",
+			"fun_img": "../images/individual/davidbrownFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "David Regan",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/davidregan.jpg",
+			"fun_img": "../images/individual/davidreganFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Dustin Walker",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/dustin.jpg",
+			"fun_img": "../images/individual/dustinFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Joshua Lloyd",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/joshlloyd.jpg",
+			"fun_img": "../images/individual/joshlloydFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Josh Meyers",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/joshmeyers.jpg",
+			"fun_img": "../images/individual/joshmeyersFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jules Sepulveda",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/jules.jpg",
+			"fun_img": "../images/individual/julesFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Sam Staff",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/samstaff.jpg",
+			"fun_img": "../images/individual/samstaffFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		}
+	]
 }
