@@ -13,3 +13,24 @@ $('#navBar').append(loadNav);
 
 let studentInfoGrid = photogrid({ cohort });
 $('#photoGrid').append(studentInfoGrid);
+
+// switch to fun pic on hover
+function toFunPic() {
+	// console.log('this', this);
+	$(this)
+		.find('.profile-pic')
+		.hide();
+	$(this)
+		.find('.fun-pic')
+		.show();
+}
+function toProPic() {
+	$(this)
+		.find('.fun-pic')
+		.hide();
+	$(this)
+		.find('.profile-pic')
+		.show();
+}
+
+$('.overlay-container').hover(toFunPic, toProPic);
