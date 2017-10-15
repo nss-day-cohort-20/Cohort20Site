@@ -2,14 +2,18 @@
 
 body {
 	background-color: $primary-color;
+	color: $dark;
+	font-family: $font-stack;
 }
 
 // safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
 .col-md-3,
+.col-md-4,
 .col-sm-6 {
 	border: 1px solid transparent;
 }
 
+// this is the class for the section of grid cards except for the icon links strip on bottom
 .overlay-container {
 	position: relative;
 
@@ -21,6 +25,7 @@ body {
 }
 
 .card {
+	background-color: $light;
 	margin-bottom: 1rem;
 }
 
@@ -30,6 +35,11 @@ body {
 	width: 100%;
 }
 
+.opaque-pic {
+	opacity: 0.4;
+}
+
+// hover pop-up of profile grid
 .overlay {
 	bottom: 0;
 	height: 0;
@@ -47,7 +57,7 @@ body {
 }
 
 .card-icon {
-	width: 30px;
+	width: 25px;
 }
 
 .hidden {

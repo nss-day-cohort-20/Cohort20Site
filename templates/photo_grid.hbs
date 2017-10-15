@@ -1,27 +1,42 @@
 <div class="row">
 	{{#each cohort}}
-	<div class="col-lg-3 col-md-4 col-sm-6">
+	<div class="col-lg-3 col-md-4 col-sm-6"> {{!-- profile cards --}}
 		<div class="card">
 			<div class="overlay-container">
 				<img src="{{pro_img}}" alt="{{name}}" class="profile-pic card-img-top">
-				<img src="{{fun_img}}" alt="{{name}}" class="fun-pic card-img-top hidden">
-				<div class="overlay">
+				<img src="{{fun_img}}" alt="{{name}}" class="fun-pic card-img-top hidden opaque-pic"> {{!-- fun pic hidden on load --}}
+				<div class="overlay"> {{!-- this is the section that slides up on hover --}}
 					<div class="card-body description">
 						<h4 class="card-title">{{name}}</h4>
 						<p class="card-text">{{about_me}}</p>
 					</div>
 				</div>
 			</div>
-			<div class="card-body d-flex justify-content-around">
+			<div class="card-body d-flex justify-content-around"> {{!-- icon/link strip at bottom of card --}}
+				<!-- personal site if it exists -->
+				{{#if personal_site}}
 				<a href="{{personal_site}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/globe.svg" alt="Homepage Icon" class="card-icon">
 				</a>
+				{{/if}}
+				<!-- github profile if it exists -->
+				{{#if github_url}}
 				<a href="{{github_url}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/github.svg" alt="GitHub Icon" class="card-icon">
 				</a>
+				{{/if}}
+				<!-- linkedin page if it exists -->
+				{{#if linkedIn_url}}
 				<a href="{{linkedIn_url}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/linkedin.svg" alt="LinkedIn Icon" class="card-icon">
 				</a>
+				{{/if}}
+				<!-- soundcloud interview if it exists -->
+				{{#if soundcloud_url}}
+				<a href="{{soundcloud_url}}" target="_blank" class="card-link m-0">
+					<img src="images/icons/soundcloud.svg" alt="LinkedIn Icon" class="card-icon">
+				</a>
+				{{/if}}
 			</div>
 		</div>
 	</div>
