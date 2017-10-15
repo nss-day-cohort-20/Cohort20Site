@@ -4,6 +4,12 @@ body {
 	background-color: $primary-color;
 }
 
+// safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
+.col-md-3,
+.col-sm-6 {
+	border: 1px solid transparent;
+}
+
 .overlay-container {
 	position: relative;
 
@@ -12,6 +18,10 @@ body {
 			height: 100%;
 		}
 	}
+}
+
+.card {
+	margin-bottom: 1rem;
 }
 
 .profile-pic {
@@ -35,4 +45,8 @@ body {
 .description {
 	overflow: hidden;
 	position: absolute;
+}
+
+.card-icon {
+	width: 30px;
 }
