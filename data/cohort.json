@@ -39,8 +39,7 @@
 			"github_url": null,
 			"pro_img": "../images/individual/megan.jpg",
 			"fun_img": "../images/individual/meganFun.jpg",
-			"about_me":
-				"Some quick example text to build on the card title and make up the bulk of the card's content.",
+			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
@@ -155,9 +154,9 @@
 		},
 		{
 			"name": "David Regan",
-			"linkedIn_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/david-regan-88bb2014a/",
 			"personal_site": null,
-			"github_url": null,
+			"github_url": "https://github.com/dregan35",
 			"pro_img": "../images/individual/davidregan.jpg",
 			"fun_img": "../images/individual/davidreganFun.jpg",
 			"about_me": null,
