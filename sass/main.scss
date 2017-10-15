@@ -1,6 +1,65 @@
-@import '../lib/node_modules/bootstrap/scss/bootstrap';
 @import 'variables';
 
 body {
 	background-color: $primary-color;
+	color: $dark;
+	font-family: $font-stack;
+}
+
+// safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
+.col-md-3,
+.col-md-4,
+.col-sm-6 {
+	border: 1px solid transparent;
+}
+
+// this is the class for the section of grid cards except for the icon links strip on bottom
+.overlay-container {
+	position: relative;
+
+	&:hover {
+		.overlay {
+			height: 100%;
+		}
+	}
+}
+
+.card {
+	background-color: $light;
+	margin-bottom: 1rem;
+}
+
+.profile-pic {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.opaque-pic {
+	opacity: 0.4;
+}
+
+// hover pop-up of profile grid
+.overlay {
+	bottom: 0;
+	height: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	transition: 0.5s ease;
+	width: 100%;
+}
+
+.description {
+	overflow: hidden;
+	position: absolute;
+}
+
+.card-icon {
+	width: 25px;
+}
+
+.hidden {
+	display: none;
 }
