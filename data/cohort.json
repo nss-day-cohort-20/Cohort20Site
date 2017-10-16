@@ -93,12 +93,12 @@
     },
     {
       "name": "Jevon Thomas",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
+      "linkedIn_url": "https://www.linkedin.com/in/jevonthomas/",
+      "personal_site": "http://jevonthomas.com/",
+      "github_url": "https://github.com/jevonthomas",
       "pro_img": "../images/individual/jevon.jpg",
-      "fun_img": "../images/individual/jevonFun.jpg",
-      "about_me": null,
+      "fun_img": "../images/individual/jevonFun2.jpg",
+      "about_me": "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
       "soundcloud_url": null
     },
     {
