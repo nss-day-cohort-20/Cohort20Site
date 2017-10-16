@@ -89,3 +89,14 @@ body {
     }
   }
 }
+
+// social icons
+.fa {
+  color: $dark;
+  font-size: 1.5em;
+}
+
+.fa:hover {
+  color: $primary-color;
+  text-decoration: none;
+}
