@@ -15,27 +15,31 @@
 			<div class="card-body d-flex justify-content-around"> {{!-- icon/link strip at bottom of card --}}
 				<!-- personal site if it exists -->
 				{{#if personal_site}}
-				<a href="{{personal_site}}" target="_blank" class="card-link m-0">
+				<a href="{{personal_site}}" class="fa fa-globe"></a>
+				{{!-- <a href="{{personal_site}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/globe.svg" alt="Homepage Icon" class="card-icon">
-				</a>
+				</a> --}}
 				{{/if}}
 				<!-- github profile if it exists -->
 				{{#if github_url}}
-				<a href="{{github_url}}" target="_blank" class="card-link m-0">
+				<a href="{{github_url}}" class="fa fa-github"></a>
+				{{!-- <a href="{{github_url}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/github.svg" alt="GitHub Icon" class="card-icon">
-				</a>
+				</a> --}}
 				{{/if}}
 				<!-- linkedin page if it exists -->
 				{{#if linkedIn_url}}
-				<a href="{{linkedIn_url}}" target="_blank" class="card-link m-0">
+				<a href="{{linkedIn_url}}" class="fa fa-linkedin"></a>
+				{{!-- <a href="{{linkedIn_url}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/linkedin.svg" alt="LinkedIn Icon" class="card-icon">
-				</a>
+				</a> --}}
 				{{/if}}
 				<!-- soundcloud interview if it exists -->
 				{{#if soundcloud_url}}
-				<a href="{{soundcloud_url}}" target="_blank" class="card-link m-0">
+				<a href="{{soundcloud_url}}" class="fa fa-soundcloud"></a>
+				{{!-- <a href="{{soundcloud_url}}" target="_blank" class="card-link m-0">
 					<img src="images/icons/soundcloud.svg" alt="LinkedIn Icon" class="card-icon">
-				</a>
+				</a> --}}
 				{{/if}}
 			</div>
 		</div>
