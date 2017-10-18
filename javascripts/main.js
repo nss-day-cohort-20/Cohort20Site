@@ -52,7 +52,6 @@ function reloadAnimation() {
 reloadAnimation();
 
 $('#reloadButton').on('click', () => {
-	console.log('click!');
 	$(`#groupPhoto12`).addClass('hide');
 	$(`#groupPhoto0`).removeClass('hide');
 	reloadAnimation();
