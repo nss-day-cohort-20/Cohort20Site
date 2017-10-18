@@ -35,13 +35,25 @@ function toProPic() {
 
 $('.overlay-container').hover(toFunPic, toProPic);
 
-// animation runs on load:
-(function loadingAnimation(i) {
-	setTimeout(function() {
-		$(`#groupPhoto${i}`).addClass('hide');
-		$(`#groupPhoto${i + 1}`).removeClass('hide');
-		if (++i < 12) {
-			loadingAnimation(i);
-		}
-	}, 175);
-})(0);
+// animation runs on load; hiding/showing images
+
+function reloadAnimation() {
+	(function loadingAnimation(i) {
+		setTimeout(function() {
+			$(`#groupPhoto${i}`).addClass('hide');
+			$(`#groupPhoto${i + 1}`).removeClass('hide');
+			if (++i < 12) {
+				loadingAnimation(i);
+			}
+		}, 175);
+	})(0);
+}
+
+reloadAnimation();
+
+$('#reloadButton').on('click', () => {
+	console.log('click!');
+	$(`#groupPhoto12`).addClass('hide');
+	$(`#groupPhoto0`).removeClass('hide');
+	reloadAnimation();
+});
