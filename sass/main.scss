@@ -6,6 +6,24 @@ body {
 	font-family: $font-stack;
 }
 
+.hide {
+	display: none;
+}
+
+#groupPhotoContainer {
+	img {
+		max-width: 100%;
+	}
+
+	.progress-animation-photo {
+		z-index: 2;
+	}
+
+	#groupPhotoFinal {
+		z-index: 1;
+	}
+}
+
 .grid-container {
 	margin-top: 20vh;
 }
