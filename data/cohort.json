@@ -73,9 +73,9 @@
     },
     {
       "name": "Cait Rocco",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
+      "linkedIn_url": "https://www.linkedin.com/in/cait-rocco/",
+      "personal_site": "https://www.caitrocco.com",
+      "github_url": "https://github.com/cait-rocco",
       "pro_img": "../images/individual/cait.jpg",
       "fun_img": "../images/individual/caitFun.jpg",
       "about_me": null,
