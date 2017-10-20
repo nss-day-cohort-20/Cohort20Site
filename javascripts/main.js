@@ -46,7 +46,7 @@ function reloadAnimation() {
 				loadingAnimation(i);
 			}
 		}, 175);
-	})(0);
+	})(1);
 }
 
 reloadAnimation();

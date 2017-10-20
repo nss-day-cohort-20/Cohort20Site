@@ -10,17 +10,28 @@ body {
 	display: none;
 }
 
+// group photo layout for animation
 #groupPhotoContainer {
 	img {
 		max-width: 100%;
+		border: 0;
+		float: left;
+		position: relative;
 	}
 
+	// animations need to be positioned over the empty chair photo
 	.progress-animation-photo {
-		z-index: 2;
+		width: 100%;
+		border: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
-	#groupPhotoFinal {
-		z-index: 1;
+	// this photo of empty chairs is always on page to prevent div collapsing
+	#groupPhoto0 {
+		width: 100%;
+		z-index: 0;
 	}
 }
 
