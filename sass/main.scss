@@ -1,102 +1,153 @@
 @import 'variables';
 
 body {
-  background-color: $primary-color;
-  color: $dark;
-  font-family: $font-stack;
+	background-color: $primary-color;
+	color: $dark;
+	font-family: $font-stack;
 }
 
-.grid-container {
-  margin-top: 20vh;
+// social icons
+.fa {
+	color: $dark;
+	font-size: 1.5em;
+
+	&:hover {
+		color: $primary-color;
+		text-decoration: none;
+	}
 }
+
+.hide {
+	display: none;
+}
+
+// group photo layout for animation
+#groupPhotoContainer {
+	img {
+		max-width: 100%;
+		border: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: auto;
+	}
+
+	// animations need to be positioned over the empty chair photo
+	.progress-animation-photo {
+		width: 100%;
+		border: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	// this photo of empty chairs is always on page to prevent div collapsing
+	#groupPhoto0 {
+		width: 100%;
+		z-index: 0;
+		position: relative;
+	}
+
+	#reloadButton {
+		// width: 100%;
+		border: 0;
+		position: relative;
+		bottom: 50px;
+		left: 20px;
+		z-index: 2;
+	}
+}
+
+// .grid-container {
+// 	margin-top: 20vh;
+// }
 
 // safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
 .col-lg-3,
 .col-md-4,
 .col-sm-6 {
-  border: 1px solid transparent;
+	border: 1px solid transparent;
 }
 
 // this is the class for the section of grid cards except for the icon links strip on bottom
 .overlay-container {
-  position: relative;
+	position: relative;
 
-  &:hover {
-    .overlay {
-      height: 100%;
-    }
-  }
+	&:hover {
+		.overlay {
+			height: 100%;
+		}
+	}
 }
 
 .card {
-  background-color: $light;
-  margin-bottom: 1rem;
+	background-color: $light;
+	margin-bottom: 1rem;
 }
 
 .profile-pic {
-  display: block;
-  height: auto;
-  width: 100%;
+	display: block;
+	height: auto;
+	width: 100%;
 }
 
 .opaque-pic {
-  opacity: 0.4;
+	opacity: 0.4;
 }
 
 // hover pop-up of profile grid
 .overlay {
-  bottom: 0;
-  height: 0;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  transition: 0.5s ease;
-  width: 100%;
+	bottom: 0;
+	height: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	transition: 0.5s ease;
+	width: 100%;
 }
 
 .description {
-  overflow: hidden;
-  position: absolute;
+	overflow: hidden;
+	position: absolute;
 }
 
 .card-icon {
-  width: 25px;
+	width: 25px;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .nav-bar {
-  padding-top: 2vh;
-  font-size: 3vh;
-  background-color: $secondary-color;
-  width: 100%;
-  margin-bottom: 20vh;
-  height: 10vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  // opacity: 0.7;
-  // box-shadow: 1px 10px 5px gray;
-  a {
-    color: rgb(42, 160, 180);
-    img {
-      width: 6vh;
-      height: 6vh;
-    }
-  }
-}
+	background-color: $secondary-color;
+	color: $primary-color;
+	font-size: 3vh;
+	height: 10vh;
+	left: 0;
+	// margin-bottom: 20vh;
+	padding-top: 2vh;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 4;
+	// opacity: 0.7;
+	// box-shadow: 1px 10px 5px gray;
 
-// social icons
-.fa {
-  color: $dark;
-  font-size: 1.5em;
-}
+	// social icons
+	.fa {
+		color: $primary-color;
+		font-size: 1.5em;
 
-.fa:hover {
-  color: $primary-color;
-  text-decoration: none;
+		&:hover {
+			color: $light;
+			text-decoration: none;
+		}
+	}
+
+	a {
+		color: $primary-color;
+	}
 }
