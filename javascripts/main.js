@@ -44,8 +44,11 @@ function reloadAnimation() {
 			$(`#groupPhoto${i + 1}`).removeClass('hide');
 			if (++i < 12) {
 				loadingAnimation(i);
+			}else{
+				$('#groupPhoto12').addClass('hide');//so that parallax effect can occur, hide z-indexed images above the image pinned to the background
+				$('#groupPhoto0').addClass('hide');
 			}
-		}, 175);
+		}, 350);
 	})(1);
 }
 

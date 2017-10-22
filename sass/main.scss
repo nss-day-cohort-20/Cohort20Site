@@ -78,7 +78,19 @@ section {
 }
 
 // PARALLAX
-// TODO
+.parallax{
+	min-height: 720px;
+	background-image:url('../images/group/C20_Group_Final.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100% auto;
+	position:relative;
+	text-align: center;
+	color:$primary-color;
+	text-shadow: 2px 2px 2px $dark;
+	padding-top:50px;
+}
 
 // GROUP PHOTO - layout for animation
 #groupPhotoContainer {
