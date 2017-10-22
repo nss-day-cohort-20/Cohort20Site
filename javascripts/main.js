@@ -33,7 +33,7 @@ function toProPic() {
     .show();
 }
 
-if ($('.fa-sun-o').hasClass('hidden')) {
+if ($('.fa-sun-o').hasClass('hide')) {
   $('.overlay-container').hover(toFunPic, toProPic);
 } else {
   $('.overlay-container').hover(toProPic, toFunPic);
@@ -41,42 +41,44 @@ if ($('.fa-sun-o').hasClass('hidden')) {
 
 $('.fa-moon-o').on('click', () => {
   $('body').addClass('darkThemedBg');
-  $('.fun-pic').removeClass('hidden');
+  $('.fun-pic').removeClass('hide');
   $('.fun-pic').removeClass('opaque-pic');
-  $('.profile-pic').addClass('hidden');
-  $('.fa-moon-o').toggle('hidden');
-  $('.fa-sun-o').toggle('hidden');
+  $('.profile-pic').addClass('hide');
+  $('.profile-pic').addClass('opaque-pic');
+  $('.fa-moon-o').toggle('hide');
+  $('.fa-sun-o').toggle('hide');
   $('.overlay-container').hover(toProPic, toFunPic);
 });
 
 $('.fa-sun-o').on('click', () => {
-  $('.fa-moon-o').toggle('hidden');
-  $('.fa-sun-o').toggle('hidden');
+  $('.fa-moon-o').toggle('hide');
+  $('.fa-sun-o').toggle('hide');
   $('body').removeClass('darkThemedBg');
-  $('.profile-pic').removeClass('hidden');
-  $('.fun-pic').addClass('hidden');
+  $('.profile-pic').removeClass('hide');
+  $('.profile-pic').removeClass('opaque-pic');
+  $('.fun-pic').addClass('hide');
   $('.fun-pic').addClass('opaque-pic');
   $('.overlay-container').hover(toFunPic, toProPic);
-$('.overlay-container').hover(toFunPic, toProPic);
-
+  $('.overlay-container').hover(toFunPic, toProPic);
+});
 // animation runs on load; hiding/showing images
 
 function reloadAnimation() {
-	(function loadingAnimation(i) {
-		setTimeout(function() {
-			$(`#groupPhoto${i}`).addClass('hide');
-			$(`#groupPhoto${i + 1}`).removeClass('hide');
-			if (++i < 12) {
-				loadingAnimation(i);
-			}
-		}, 175);
-	})(1);
+  (function loadingAnimation(i) {
+    setTimeout(function() {
+      $(`#groupPhoto${i}`).addClass('hide');
+      $(`#groupPhoto${i + 1}`).removeClass('hide');
+      if (++i < 12) {
+        loadingAnimation(i);
+      }
+    }, 175);
+  })(1);
 }
 
 reloadAnimation();
 
 $('#reloadButton').on('click', () => {
-	$(`#groupPhoto12`).addClass('hide');
-	$(`#groupPhoto0`).removeClass('hide');
-	reloadAnimation();
+  $(`#groupPhoto12`).addClass('hide');
+  $(`#groupPhoto0`).removeClass('hide');
+  reloadAnimation();
 });
