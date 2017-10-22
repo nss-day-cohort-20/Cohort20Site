@@ -16,21 +16,45 @@ $('#photoGrid').append(studentInfoGrid);
 
 // switch to fun pic on hover
 function toFunPic() {
-	// console.log('this', this);
-	$(this)
-		.find('.profile-pic')
-		.hide();
-	$(this)
-		.find('.fun-pic')
-		.show();
+  // console.log('this', this);
+  $(this)
+    .find('.profile-pic')
+    .hide();
+  $(this)
+    .find('.fun-pic')
+    .show();
 }
 function toProPic() {
-	$(this)
-		.find('.fun-pic')
-		.hide();
-	$(this)
-		.find('.profile-pic')
-		.show();
+  $(this)
+    .find('.fun-pic')
+    .hide();
+  $(this)
+    .find('.profile-pic')
+    .show();
 }
 
-$('.overlay-container').hover(toFunPic, toProPic);
+if ($('.fa-sun-o').hasClass('hidden')) {
+  $('.overlay-container').hover(toFunPic, toProPic);
+} else {
+  $('.overlay-container').hover(toProPic, toFunPic);
+}
+
+$('.fa-moon-o').on('click', () => {
+  $('body').addClass('darkThemedBg');
+  $('.fun-pic').removeClass('hidden');
+  $('.fun-pic').removeClass('opaque-pic');
+  $('.profile-pic').addClass('hidden');
+  $('.fa-moon-o').toggle('hidden');
+  $('.fa-sun-o').toggle('hidden');
+  $('.overlay-container').hover(toProPic, toFunPic);
+});
+
+$('.fa-sun-o').on('click', () => {
+  $('.fa-moon-o').toggle('hidden');
+  $('.fa-sun-o').toggle('hidden');
+  $('body').removeClass('darkThemedBg');
+  $('.profile-pic').removeClass('hidden');
+  $('.fun-pic').addClass('hidden');
+  $('.fun-pic').addClass('opaque-pic');
+  $('.overlay-container').hover(toFunPic, toProPic);
+});
