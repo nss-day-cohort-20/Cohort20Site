@@ -124,12 +124,12 @@
     },
     {
       "name": "Aspen Humphrey",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
+      "linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
+      "personal_site":  "https://aspenhumphrey.github.io/",
+      "github_url": "https://github.com/AspenHumphrey",
       "pro_img": "../images/individual/aspen.jpg",
       "fun_img": "../images/individual/aspenFun.jpg",
-      "about_me": null,
+      "about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
       "soundcloud_url": null
     },
     {
@@ -194,9 +194,9 @@
     },
     {
       "name": "Jules Sepulveda",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
+      "linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
+      "personal_site": "julessepulveda.io",
+      "github_url": "https://github.com/julessep",
       "pro_img": "../images/individual/jules.jpg",
       "fun_img": "../images/individual/julesFun.jpg",
       "about_me": null,

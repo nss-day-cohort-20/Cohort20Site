@@ -57,4 +57,26 @@ $('.fa-sun-o').on('click', () => {
   $('.fun-pic').addClass('hidden');
   $('.fun-pic').addClass('opaque-pic');
   $('.overlay-container').hover(toFunPic, toProPic);
+$('.overlay-container').hover(toFunPic, toProPic);
+
+// animation runs on load; hiding/showing images
+
+function reloadAnimation() {
+	(function loadingAnimation(i) {
+		setTimeout(function() {
+			$(`#groupPhoto${i}`).addClass('hide');
+			$(`#groupPhoto${i + 1}`).removeClass('hide');
+			if (++i < 12) {
+				loadingAnimation(i);
+			}
+		}, 175);
+	})(1);
+}
+
+reloadAnimation();
+
+$('#reloadButton').on('click', () => {
+	$(`#groupPhoto12`).addClass('hide');
+	$(`#groupPhoto0`).removeClass('hide');
+	reloadAnimation();
 });
