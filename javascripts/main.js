@@ -33,36 +33,40 @@ function toProPic() {
     .show();
 }
 
-if ($('.fa-sun-o').hasClass('hide')) {
-  $('.overlay-container').hover(toFunPic, toProPic);
-} else {
-  $('.overlay-container').hover(toProPic, toFunPic);
+$('#darkBtn').on('click', () => {
+  $('#darkBtn').addClass('hide');
+  $('#regBtn').removeClass('hide');
+  checkTheme();
+});
+
+$('#regBtn').on('click', () => {
+  $('#darkBtn').removeClass('hide');
+  $('#regBtn').addClass('hide');
+  checkTheme();
+});
+
+function checkTheme() {
+  if ($('#regBtn').hasClass('hide')) {
+    //regular
+    $('.overlay-container').hover(toFunPic, toProPic);
+    $('body').removeClass('darkThemedBg');
+    $('.scaryTheme').removeClass('hide');
+    $('.profile-pic').removeClass('hide');
+    $('.profile-pic').removeClass('opaque-pic');
+    $('.fun-pic').addClass('hide');
+    $('.fun-pic').addClass('opaque-pic');
+  } else {
+    //dark theme
+    $('.overlay-container').hover(toProPic, toFunPic);
+    $('.scaryTheme').addClass('hide');
+    $('body').addClass('darkThemedBg');
+    $('.fun-pic').removeClass('hide');
+    $('.fun-pic').removeClass('opaque-pic');
+    $('.profile-pic').addClass('hide');
+    $('.profile-pic').addClass('opaque-pic');
+  }
 }
 
-$('.fa-moon-o').on('click', () => {
-  $('body').addClass('darkThemedBg');
-  $('.scaryTheme').removeClass('hide');
-  $('.fun-pic').removeClass('hide');
-  $('.fun-pic').removeClass('opaque-pic');
-  $('.profile-pic').addClass('hide');
-  $('.profile-pic').addClass('opaque-pic');
-  $('.fa-moon-o').toggle('hide');
-  $('.fa-sun-o').toggle('hide');
-  $('.overlay-container').hover(toProPic, toFunPic);
-});
-
-$('.fa-sun-o').on('click', () => {
-  $('.fa-moon-o').toggle('hide');
-  $('.fa-sun-o').toggle('hide');
-  $('.scaryTheme').addClass('hide');
-  $('body').removeClass('darkThemedBg');
-  $('.profile-pic').removeClass('hide');
-  $('.profile-pic').removeClass('opaque-pic');
-  $('.fun-pic').addClass('hide');
-  $('.fun-pic').addClass('opaque-pic');
-  $('.overlay-container').hover(toFunPic, toProPic);
-  $('.overlay-container').hover(toFunPic, toProPic);
-});
 // animation runs on load; hiding/showing images
 
 function reloadAnimation() {
