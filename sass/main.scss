@@ -1,67 +1,30 @@
 @import 'variables';
 
+// basic layout
+html {
+	font-size: 16px;
+}
+
 body {
-	background-color: $primary-color;
+	background-color: $secondary-color;
 	color: $dark;
 	font-family: $font-stack;
 }
 
-// social icons
-.fa {
+// HIDE CLASS
+.hide {
+	display: none;
+}
+
+// links (& social icons in profile grid)
+a {
 	color: $dark;
-	font-size: 1.5em;
 
 	&:hover {
 		color: $primary-color;
 		text-decoration: none;
 	}
 }
-
-.hide {
-	display: none;
-}
-
-// group photo layout for animation
-#groupPhotoContainer {
-	img {
-		max-width: 100%;
-		border: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: auto;
-	}
-
-	// animations need to be positioned over the empty chair photo
-	.progress-animation-photo {
-		width: 100%;
-		border: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 1;
-	}
-
-	// this photo of empty chairs is always on page to prevent div collapsing
-	#groupPhoto0 {
-		width: 100%;
-		z-index: 0;
-		position: relative;
-	}
-
-	#reloadButton {
-		// width: 100%;
-		border: 0;
-		position: relative;
-		bottom: 50px;
-		left: 20px;
-		z-index: 2;
-	}
-}
-
-// .grid-container {
-// 	margin-top: 20vh;
-// }
 
 // safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
 .col-lg-3,
@@ -70,6 +33,92 @@ body {
 	border: 1px solid transparent;
 }
 
+// NAVBAR
+.navbar {
+	background-color: $secondary-color;
+	color: $primary-color;
+	z-index: 4;
+	// box-shadow: 1px 10px 5px gray;
+
+	// nav links
+	a {
+		color: $primary-color;
+
+		&:hover {
+			color: $light;
+		}
+	}
+}
+
+// SECTIONS/HEADERS
+section {
+	.container {
+		// TODO - this should change with color pallette
+		background-color: #fff;
+	}
+
+	header {
+		background-color: $primary-color;
+		padding: 1.5rem;
+		width: 100%;
+
+		.container {
+			background-color: inherit;
+		}
+
+		h3 {
+			margin: 0;
+			width: 100%;
+		}
+	}
+
+	article {
+		padding: 2rem;
+	}
+}
+
+// PARALLAX
+// TODO
+
+// GROUP PHOTO - layout for animation
+#groupPhotoContainer {
+	img {
+		border: 0;
+		height: auto;
+		left: 0;
+		max-width: 100%;
+		position: absolute;
+		top: 0;
+	}
+
+	// animations need to be positioned over the empty chair photo
+	.progress-animation-photo {
+		border: 0;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	// this photo of empty chairs is always on page to prevent div collapsing
+	#groupPhoto0 {
+		position: relative;
+		width: 100%;
+		z-index: 0;
+	}
+
+	// reload button positioning over group photos
+	button {
+		border: 0;
+		bottom: 50px;
+		left: 20px;
+		position: relative;
+		z-index: 2;
+	}
+}
+
+// STUDENT PROFILE GRID
 // this is the class for the section of grid cards except for the icon links strip on bottom
 .overlay-container {
 	position: relative;
@@ -111,43 +160,4 @@ body {
 .description {
 	overflow: hidden;
 	position: absolute;
-}
-
-.card-icon {
-	width: 25px;
-}
-
-.hidden {
-	display: none;
-}
-
-.nav-bar {
-	background-color: $secondary-color;
-	color: $primary-color;
-	font-size: 3vh;
-	height: 10vh;
-	left: 0;
-	// margin-bottom: 20vh;
-	padding-top: 2vh;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 4;
-	// opacity: 0.7;
-	// box-shadow: 1px 10px 5px gray;
-
-	// social icons
-	.fa {
-		color: $primary-color;
-		font-size: 1.5em;
-
-		&:hover {
-			color: $light;
-			text-decoration: none;
-		}
-	}
-
-	a {
-		color: $primary-color;
-	}
 }

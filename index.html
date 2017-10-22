@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>NSS Cohort 20</title>
+	<title>Cohort 20: Nashville Software School</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="lib/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
@@ -14,32 +14,91 @@
 
 	<div id="navBar" class="nav-bar"></div>
 
-	<div id="groupPhotoContainer">
-		<!-- empty chair photo - needs to stay rendered behind other photos to prevent collapse -->
-		<img src="./images/group/C20_Group_0.jpg" alt="C20 Progress Bar" id="groupPhoto0">
-		<!-- progress animation photos that will be hidden and shown via JS #reloadButton -->
-		<img src="./images/group/C20_Group_1.jpg" alt="C20 Progress Bar" id="groupPhoto1" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_2.jpg" alt="C20 Progress Bar" id="groupPhoto2" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_3.jpg" alt="C20 Progress Bar" id="groupPhoto3" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_4.jpg" alt="C20 Progress Bar" id="groupPhoto4" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_5.jpg" alt="C20 Progress Bar" id="groupPhoto5" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_6.jpg" alt="C20 Progress Bar" id="groupPhoto6" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_7.jpg" alt="C20 Progress Bar" id="groupPhoto7" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_8.jpg" alt="C20 Progress Bar" id="groupPhoto8" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_9.jpg" alt="C20 Progress Bar" id="groupPhoto9" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_10.jpg" alt="C20 Progress Bar" id="groupPhoto10" class="progress-animation-photo hide">
-		<img src="./images/group/C20_Group_11.jpg" alt="C20 Progress Bar" id="groupPhoto11" class="progress-animation-photo hide">
-		<!-- final group photo to remain shown -->
-		<img src="./images/group/C20_Group_Final.jpg" alt="C20 Progress Bar" id="groupPhoto12" class="progress-animation-photo hide">
+	<section id="cohort">
+		<header>
+			<div class="container">
+				<!-- <h3>Cohort 20:</h3> -->
+			</div>
+		</header>
+		<div id="groupPhotoContainer">
+			<!-- empty chair photo - needs to stay rendered behind other photos to prevent collapse -->
+			<img src="./images/group/C20_Group_0.jpg" alt="C20 Progress Bar" id="groupPhoto0">
+			<!-- progress animation photos that will be hidden and shown via JS #reloadButton -->
+			<img src="./images/group/C20_Group_1.jpg" alt="C20 Progress Bar" id="groupPhoto1" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_2.jpg" alt="C20 Progress Bar" id="groupPhoto2" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_3.jpg" alt="C20 Progress Bar" id="groupPhoto3" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_4.jpg" alt="C20 Progress Bar" id="groupPhoto4" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_5.jpg" alt="C20 Progress Bar" id="groupPhoto5" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_6.jpg" alt="C20 Progress Bar" id="groupPhoto6" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_7.jpg" alt="C20 Progress Bar" id="groupPhoto7" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_8.jpg" alt="C20 Progress Bar" id="groupPhoto8" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_9.jpg" alt="C20 Progress Bar" id="groupPhoto9" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_10.jpg" alt="C20 Progress Bar" id="groupPhoto10" class="progress-animation-photo hide">
+			<img src="./images/group/C20_Group_11.jpg" alt="C20 Progress Bar" id="groupPhoto11" class="progress-animation-photo hide">
+			<!-- final group photo to remain shown -->
+			<img src="./images/group/C20_Group_Final.jpg" alt="Group photo of Cohort 20" id="groupPhoto12" class="progress-animation-photo hide">
 
-		<span id="reloadButton">
-			<i class="fa fa-refresh" aria-hidden="true"></i>
-		</span>
-	</div>
+			<button id="reloadButton" class="btn btn-secondary">
+				<i class="fa fa-refresh" aria-hidden="true">
+				</i>
+				Reload
+			</button>
+		</div>
+	</section>
 
-	<div id="photoGrid" class="grid-container">
+	<section id="graduates">
+		<header>
+			<div class="container">
+				<h3>Graduates</h3>
+			</div>
+		</header>
+		<article class="container">
+			<div id="photoGrid">
+			</div>
+		</article>
+	</section>
 
-	</div>
+	<section id="technology">
+		<header>
+			<div class="container">
+				<h3>Technology</h3>
+			</div>
+		</header>
+		<div class="container">
+			<article>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
+					ad dolorem magni maiores facilis laboriosam
+			</article>
+		</div>
+	</section>
+
+	<section id="nss">
+		<header>
+			<div class="container">
+				<h3>Nashville Software School</h3>
+			</div>
+		</header>
+		<div class="container">
+			<article>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
+					ad dolorem magni maiores facilis laboriosam
+			</article>
+		</div>
+	</section>
+
+	<section id="thanks">
+		<header>
+			<div class="container">
+				<h3>Thank you!</h3>
+			</div>
+		</header>
+		<div class="container">
+			<article>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
+					ad dolorem magni maiores facilis laboriosam illum. Cumque voluptatum quasi recusandae nam fuga neque quae?</p>
+			</article>
+		</div>
+	</section>
 
 	<script src="./lib/node_modules/jquery/dist/jquery.js "></script>
 	<script src="./lib/node_modules/popper.js/dist/umd/popper.js "></script>
