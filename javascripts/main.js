@@ -41,6 +41,7 @@ if ($('.fa-sun-o').hasClass('hide')) {
 
 $('.fa-moon-o').on('click', () => {
   $('body').addClass('darkThemedBg');
+  $('.scaryTheme').removeClass('hide');
   $('.fun-pic').removeClass('hide');
   $('.fun-pic').removeClass('opaque-pic');
   $('.profile-pic').addClass('hide');
@@ -53,6 +54,7 @@ $('.fa-moon-o').on('click', () => {
 $('.fa-sun-o').on('click', () => {
   $('.fa-moon-o').toggle('hide');
   $('.fa-sun-o').toggle('hide');
+  $('.scaryTheme').addClass('hide');
   $('body').removeClass('darkThemedBg');
   $('.profile-pic').removeClass('hide');
   $('.profile-pic').removeClass('opaque-pic');
