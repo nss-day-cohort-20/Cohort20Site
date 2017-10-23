@@ -78,7 +78,21 @@ section {
 }
 
 // PARALLAX
-// TODO
+.parallax{
+	height: 720px;
+	background-image:url('../images/group/C20_Group_Final.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100% auto;
+	position:relative;
+}
+section.parallax h1 {
+	text-align: center;
+	color:$primary-color;
+	text-shadow: 2px 2px 2px $dark;
+	padding-top:50px;
+}
 
 // GROUP PHOTO - layout for animation
 #groupPhotoContainer {
@@ -160,4 +174,46 @@ section {
 .description {
 	overflow: hidden;
 	position: absolute;
+}
+
+@media (max-width: 450px) {
+	.parallax {
+		height:150px;
+		width:100%;
+		background-size: contain;
+	}
+	// #groupPhoto0{
+		//this one hangs down behind the rest until the end of the animation & looks odd
+	// }
+	#navBar > nav{
+		padding:0;
+	}
+}
+
+@media (min-width:451px)and(max-width:768px){
+	.parallax {
+		height:350px;
+		width:100%;
+		background-size: contain;
+	}
+	// #groupPhoto0{
+		//this one hangs down behind the rest until the end of the animation & looks odd
+	// }
+	#navBar > nav{
+		padding:0;
+	}
+}
+
+@media (min-width:769px)and(max-width:1024px){
+	.parallax {
+		height:450px;
+		width:100%;
+		background-size: contain;
+	}
+	// #groupPhoto0{
+		//this one hangs down behind the rest until the end of the animation & looks odd
+	// }
+	#navBar > nav{
+		padding:0;
+	}
 }
