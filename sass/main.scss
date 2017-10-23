@@ -204,16 +204,11 @@ section {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  border-radius: 100%;
-  background-color: $light;
   i {
     font-size: 2em;
   }
 }
 
-.pro-pic-tweek {
-  display: inline;
-}
 .darkThemedBg {
   background-color: $dark;
   section header {
@@ -229,9 +224,6 @@ section {
     font-family: $dark-font;
   }
   color: $blood-red;
-  // .profile-pic {
-  //   display: none;
-  // }
 
   .container {
     background-color: $dark;
