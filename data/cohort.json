@@ -33,12 +33,12 @@
     },
     {
       "name": "Megan Brown",
-      "linkedIn_url": null,
+      "linkedIn_url": "https://www.linkedin.com/in/megan-j-brown",
       "personal_site": "http://www.meganbrown.codes",
-      "github_url": null,
+      "github_url": "https://github.com/megbrown",
       "pro_img": "../images/individual/megan.jpg",
       "fun_img": "../images/individual/meganFun.jpg",
-      "about_me": null,
+      "about_me": "My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
       "soundcloud_url": null
     },
     {
