@@ -4,68 +4,64 @@ let $ = require('jquery');
 require('handlebars');
 
 // handlebars templates
-let loadNav = require('../templates/navbar.hbs');
 let photogrid = require('../templates/photo_grid.hbs');
+let loadNav = require('../templates/navbar.hbs');
 // student data in json file
 const { cohort } = require('../data/cohort.json');
 
-$('#navBar').append(loadNav);
+$('#navbar').append(loadNav);
 
 let studentInfoGrid = photogrid({ cohort });
 $('#photoGrid').append(studentInfoGrid);
 
+$('.overlay-container').hover(toFunPic, toProPic);
 // switch to fun pic on hover
 function toFunPic() {
   // console.log('this', this);
   $(this)
     .find('.profile-pic')
-    .hide();
+    .addClass('hide');
   $(this)
     .find('.fun-pic')
-    .show();
+    .removeClass('hide');
 }
 function toProPic() {
   $(this)
     .find('.fun-pic')
-    .hide();
+    .addClass('hide');
   $(this)
     .find('.profile-pic')
-    .show();
+    .removeClass('hide');
 }
-
+// if ($('#regBtn').hasClass('hide')) {
+//   $('.overlay-container').hover(toFunPic, toProPic);
+// } else {
+//   $('.overlay-container').hover(toProPic, toFunPic);
+// }
 $('#darkBtn').on('click', () => {
   $('#darkBtn').addClass('hide');
+
   $('#regBtn').removeClass('hide');
-  checkTheme();
+  // $('.scaryTheme').addClass('hide');
+  $('body').addClass('darkThemedBg');
+  $('.fun-pic').removeClass('hide');
+  $('.fun-pic').removeClass('opaque-pic');
+  $('.profile-pic').addClass('hide');
+  $('.profile-pic').addClass('opaque-pic');
+  $('.overlay-container').hover(toProPic, toFunPic);
 });
 
 $('#regBtn').on('click', () => {
   $('#darkBtn').removeClass('hide');
   $('#regBtn').addClass('hide');
-  checkTheme();
+  $('body').removeClass('darkThemedBg');
+  // $('.scaryTheme').removeClass('hide');
+  $('.profile-pic').removeClass('hide');
+  $('.profile-pic').removeClass('opaque-pic');
+  $('.fun-pic').addClass('hide');
+  $('.fun-pic').addClass('opaque-pic');
+  $('.overlay-container').hover(toFunPic, toProPic);
 });
-
-function checkTheme() {
-  if ($('#regBtn').hasClass('hide')) {
-    //regular
-    $('.overlay-container').hover(toFunPic, toProPic);
-    $('body').removeClass('darkThemedBg');
-    $('.scaryTheme').removeClass('hide');
-    $('.profile-pic').removeClass('hide');
-    $('.profile-pic').removeClass('opaque-pic');
-    $('.fun-pic').addClass('hide');
-    $('.fun-pic').addClass('opaque-pic');
-  } else {
-    //dark theme
-    $('.overlay-container').hover(toProPic, toFunPic);
-    $('.scaryTheme').addClass('hide');
-    $('body').addClass('darkThemedBg');
-    $('.fun-pic').removeClass('hide');
-    $('.fun-pic').removeClass('opaque-pic');
-    $('.profile-pic').addClass('hide');
-    $('.profile-pic').addClass('opaque-pic');
-  }
-}
 
 // animation runs on load; hiding/showing images
 

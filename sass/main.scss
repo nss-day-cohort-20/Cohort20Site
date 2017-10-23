@@ -162,7 +162,7 @@ section {
   position: absolute;
 }
 
-.hidden {
+.hide {
   display: none;
 }
 
@@ -205,18 +205,12 @@ section {
   bottom: 10px;
   right: 10px;
   border-radius: 100%;
-  background-color: white;
+  background-color: $light;
   i {
     font-size: 2em;
   }
 }
 
-// .scaryTheme {
-//   position: fixed;
-//   top: 100px;
-//   right: 0;
-//   width: 100%;
-// }
 .pro-pic-tweek {
   display: inline;
 }
@@ -233,11 +227,11 @@ section {
   h6,
   .navbar a {
     font-family: $dark-font;
-    color: red;
   }
-  .profile-pic {
-    display: none;
-  }
+  color: $blood-red;
+  // .profile-pic {
+  //   display: none;
+  // }
 
   .container {
     background-color: $dark;
