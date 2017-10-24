@@ -47,6 +47,31 @@
 		{
 			"name": "Bootstrap",
 			"image": "bootstrap"
-		}
+		},
+		{
+			"name": "Browserify",
+			"image": "browserify"
+		},
+		{
+			"name": "Express",
+			"image": "express"
+		},
+		{
+			"name": "Chai",
+			"image": "chai"
+		},
+		{
+			"name": "Handlebars",
+			"image": "handlebars"
+		},
+		{
+			"name": "Pug",
+			"image": "pug"
+		},
+		{
+			"name": "Sequelize",
+			"image": "sequelize"
+		},
+
 	]
 }
