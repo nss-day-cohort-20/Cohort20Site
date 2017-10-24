@@ -94,3 +94,7 @@ $('#reloadButton').on('click', () => {
   $(`#groupPhoto0`).removeClass('hide');
   reloadAnimation();
 });
+
+// current copyright year for footer
+let currentYear = (new Date).getFullYear();
+$('#current-year').text(currentYear);
