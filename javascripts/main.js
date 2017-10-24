@@ -5,16 +5,25 @@ require('handlebars');
 
 // handlebars templates
 let photogrid = require('../templates/photo_grid.hbs');
+let techGrid = require('../templates/technologies.hbs');
+
 let loadNav = require('../templates/navbar.hbs');
+
 // student data in json file
 const { cohort } = require('../data/cohort.json');
+// technologies data in json file
+const { technologies } = require('../data/technologies.json');
 
 $('#navbar').append(loadNav);
 
 let studentInfoGrid = photogrid({ cohort });
 $('#photoGrid').append(studentInfoGrid);
 
+let technologiesInfoGrid = techGrid({ technologies });
+$('#techGrid').append(technologiesInfoGrid);
+
 $('.overlay-container').hover(toFunPic, toProPic);
+
 // switch to fun pic on hover
 function toFunPic() {
   // console.log('this', this);
