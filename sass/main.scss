@@ -56,19 +56,18 @@ a {
   color: $primary-color;
 }
   ul {
-  color: $primary-color;
-  padding: 0.6rem;
+   padding: 0.6rem;
   }
     li {
-    list-style-type: none;
-    display: inline;
-    padding-right: 50px;
+      list-style-type: none;
+      display: inline;
+      padding-right: 35px;
     }
       a {
-      color: $primary-color;
+        color: $primary-color;
       }
       a:hover {
-      color: $light;
+        color: $light;
       }
 
 #footer ul li a i {
@@ -76,7 +75,11 @@ a {
   margin-right: 10px;
 }
 
-
+@media only screen and (max-width: 485px) {
+  #footer ul li {
+    display: block;
+  }
+}
 
 // SECTIONS/HEADERS
 section {
