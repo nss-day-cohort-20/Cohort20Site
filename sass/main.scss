@@ -2,79 +2,79 @@
 
 // basic layout
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-	background-color: $secondary-color;
-	color: $dark;
-	font-family: $font-stack;
+  background-color: $secondary-color;
+  color: $dark;
+  font-family: $font-stack;
 }
 
 // HIDE CLASS
 .hide {
-	display: none;
+  display: none;
 }
 
 // links (& social icons in profile grid)
 a {
-	color: $dark;
+  color: $dark;
 
-	&:hover {
-		color: $primary-color;
-		text-decoration: none;
-	}
+  &:hover {
+    color: $primary-color;
+    text-decoration: none;
+  }
 }
 
 // safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
 .col-lg-3,
 .col-md-4,
 .col-sm-6 {
-	border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 // NAVBAR
 .navbar {
-	background-color: $secondary-color;
-	color: $primary-color;
-	z-index: 4;
-	// box-shadow: 1px 10px 5px gray;
+  background-color: $secondary-color;
+  color: $primary-color;
+  z-index: 4;
+  // box-shadow: 1px 10px 5px gray;
 
-	// nav links
-	a {
-		color: $primary-color;
+  // nav links
+  a {
+    color: $primary-color;
 
-		&:hover {
-			color: $light;
-		}
-	}
+    &:hover {
+      color: $light;
+    }
+  }
 }
 
 // SECTIONS/HEADERS
 section {
-	.container {
-		// TODO - this should change with color pallette
-		background-color: #fff;
-	}
+  .container {
+    // TODO - this should change with color pallette
+    background-color: #fff;
+  }
 
-	header {
-		background-color: $primary-color;
-		padding: 1.5rem;
-		width: 100%;
+  header {
+    background-color: $primary-color;
+    padding: 1.5rem;
+    width: 100%;
 
-		.container {
-			background-color: inherit;
-		}
+    .container {
+      background-color: inherit;
+    }
 
-		h3 {
-			margin: 0;
-			width: 100%;
-		}
-	}
+    h3 {
+      margin: 0;
+      width: 100%;
+    }
+  }
 
-	article {
-		padding: 2rem;
-	}
+  article {
+    padding: 2rem;
+  }
 }
 
 // PARALLAX
@@ -82,84 +82,152 @@ section {
 
 // GROUP PHOTO - layout for animation
 #groupPhotoContainer {
-	img {
-		border: 0;
-		height: auto;
-		left: 0;
-		max-width: 100%;
-		position: absolute;
-		top: 0;
-	}
+  img {
+    border: 0;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+  }
 
-	// animations need to be positioned over the empty chair photo
-	.progress-animation-photo {
-		border: 0;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-	}
+  // animations need to be positioned over the empty chair photo
+  .progress-animation-photo {
+    border: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
 
-	// this photo of empty chairs is always on page to prevent div collapsing
-	#groupPhoto0 {
-		position: relative;
-		width: 100%;
-		z-index: 0;
-	}
+  // this photo of empty chairs is always on page to prevent div collapsing
+  #groupPhoto0 {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+  }
 
-	// reload button positioning over group photos
-	button {
-		border: 0;
-		bottom: 50px;
-		left: 20px;
-		position: relative;
-		z-index: 2;
-	}
+  // reload button positioning over group photos
+  button {
+    border: 0;
+    bottom: 50px;
+    left: 20px;
+    position: relative;
+    z-index: 2;
+  }
 }
 
 // STUDENT PROFILE GRID
 // this is the class for the section of grid cards except for the icon links strip on bottom
 .overlay-container {
-	position: relative;
+  position: relative;
 
-	&:hover {
-		.overlay {
-			height: 100%;
-		}
-	}
+  &:hover {
+    .overlay {
+      height: 100%;
+    }
+  }
 }
 
 .card {
-	background-color: $light;
-	margin-bottom: 1rem;
+  background-color: $light;
+  margin-bottom: 1rem;
 }
 
 .profile-pic {
-	display: block;
-	height: auto;
-	width: 100%;
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .opaque-pic {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 // hover pop-up of profile grid
 .overlay {
-	bottom: 0;
-	height: 0;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	right: 0;
-	transition: 0.5s ease;
-	width: 100%;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  transition: 0.5s ease;
+  width: 100%;
 }
 
 .description {
-	overflow: hidden;
-	position: absolute;
+  overflow: hidden;
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}
+
+.nav-bar {
+  padding-top: 2vh;
+  font-size: 3vh;
+  background-color: $secondary-color;
+  width: 100%;
+  margin-bottom: 20vh;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  // opacity: 0.7;
+  // box-shadow: 1px 10px 5px gray;
+  a {
+    color: rgb(42, 160, 180);
+    img {
+      width: 6vh;
+      height: 6vh;
+    }
+  }
+}
+
+// social icons
+.fa {
+  color: $dark;
+  font-size: 1.5em;
+}
+
+.fa:hover {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.darkThemeBtn {
+  z-index: 2;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  i {
+    font-size: 2em;
+  }
+}
+
+.darkThemedBg {
+  background-color: $dark;
+  section header {
+    background-color: $dark;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .navbar a {
+    font-family: $dark-font;
+  }
+  color: $blood-red;
+
+  .container {
+    background-color: $dark;
+  }
 }
 
 // TECHNOLOGIES GRID

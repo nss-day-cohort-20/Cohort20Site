@@ -3,7 +3,7 @@
     {
       "name": "Arwa Kuterwadliwala",
       "linkedIn_url": "https://www.linkedin.com/in/arwask/",
-      "personal_site": "https://www.arwask.com",
+      "personal_site": "http://arwask.com",
       "github_url": "https://github.com/Arwask",
       "pro_img": "../images/individual/arwa.jpg",
       "fun_img": "../images/individual/arwaFun.jpg",
@@ -98,7 +98,8 @@
       "github_url": "https://github.com/jevonthomas",
       "pro_img": "../images/individual/jevon.jpg",
       "fun_img": "../images/individual/jevonFun2.jpg",
-      "about_me": "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
+      "about_me":
+        "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
       "soundcloud_url": null
     },
     {
