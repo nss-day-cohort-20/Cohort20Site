@@ -86,37 +86,6 @@ a {
 	}
 }
 
-// FOOTER
-#footer {
-  background-color: $secondary-color;
-  color: $primary-color;
-}
-  ul {
-   padding: 0.6rem;
-  }
-    li {
-      list-style-type: none;
-      display: inline;
-      padding-right: 35px;
-    }
-      a {
-        color: $primary-color;
-      }
-      a:hover {
-        color: $light;
-      }
-
-#footer ul li a i {
-  color: $primary-color;
-  margin-right: 10px;
-}
-
-@media only screen and (max-width: 485px) {
-  #footer ul li {
-    display: block;
-  }
-}
-
 // SECTIONS/HEADERS
 section {
 	.container {
@@ -230,6 +199,40 @@ section {
 .logo-img {
 	height: auto;
 	width: 75%;
+}
+
+// FOOTER
+#footer {
+	background-color: $secondary-color;
+	color: $primary-color;
+
+	ul {
+		padding: 0.6rem;
+	}
+
+	li {
+		display: inline;
+		list-style-type: none;
+		padding-right: 35px;
+	}
+
+	a {
+		color: $primary-color;
+
+		&:hover {
+			color: $light;
+		}
+
+		i {
+			margin-right: 10px;
+		}
+	}
+}
+
+@media only screen and (max-width: 485px) {
+	#footer ul li {
+		display: block;
+	}
 }
 
 // HIDE CLASS
