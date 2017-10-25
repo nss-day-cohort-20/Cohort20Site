@@ -1,216 +1,218 @@
 {
-  "cohort": [
-    {
-      "name": "Arwa Kuterwadliwala",
-      "linkedIn_url": "https://www.linkedin.com/in/arwask/",
-      "personal_site": "http://arwask.com",
-      "github_url": "https://github.com/Arwask",
-      "pro_img": "../images/individual/arwa.jpg",
-      "fun_img": "../images/individual/arwaFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Jon Roberts",
-      "linkedIn_url": "https://www.linkedin.com/in/jon-roberts",
-      "personal_site": null,
-      "github_url": "https://github.com/thejonroberts",
-      "pro_img": "../images/individual/jon.jpg",
-      "fun_img": "../images/individual/jonFun.jpg",
-      "fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
-      "about_me": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "soundcloud_url": "test"
-    },
-    {
-      "name": "Emily Lemmon",
-      "linkedIn_url": "https://www.linkedin.com/in/emily-c-lemmon-59479513/",
-      "personal_site": "https://rian501.github.io/",
-      "github_url": "https://github.com/rian501",
-      "pro_img": "../images/individual/emily.jpg",
-      "fun_img": "../images/individual/emilyFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Megan Brown",
-      "linkedIn_url": "https://www.linkedin.com/in/megan-j-brown",
-      "personal_site": "http://www.meganbrown.codes",
-      "github_url": "https://github.com/megbrown",
-      "pro_img": "../images/individual/megan.jpg",
-      "fun_img": "../images/individual/meganFun.jpg",
-      "about_me": "My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
-      "soundcloud_url": null
-    },
-    {
-      "name": "Greta Moseley",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/greta.jpg",
-      "fun_img": "../images/individual/gretaFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Chris Mellor",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/chris.jpg",
-      "fun_img": "../images/individual/chrisFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Jason Rial",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/jason.jpg",
-      "fun_img": "../images/individual/jasonFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Cait Rocco",
-      "linkedIn_url": "https://www.linkedin.com/in/cait-rocco/",
-      "personal_site": "https://www.caitrocco.com",
-      "github_url": "https://github.com/cait-rocco",
-      "pro_img": "../images/individual/cait.jpg",
-      "fun_img": "../images/individual/caitFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Glen Vollmer",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/glen.jpg",
-      "fun_img": "../images/individual/glenFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Jevon Thomas",
-      "linkedIn_url": "https://www.linkedin.com/in/jevonthomas/",
-      "personal_site": "http://jevonthomas.com/",
-      "github_url": "https://github.com/jevonthomas",
-      "pro_img": "../images/individual/jevon.jpg",
-      "fun_img": "../images/individual/jevonFun2.jpg",
-      "about_me":
-        "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
-      "soundcloud_url": null
-    },
-    {
-      "name": "Sam Baker",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/sambaker.jpg",
-      "fun_img": "../images/individual/sambakerFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Alana Smith",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/alana.jpg",
-      "fun_img": "../images/individual/alanaFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Aspen Humphrey",
-      "linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
-      "personal_site":  "https://aspenhumphrey.github.io/",
-      "github_url": "https://github.com/AspenHumphrey",
-      "pro_img": "../images/individual/aspen.jpg",
-      "fun_img": "../images/individual/aspenFun.jpg",
-      "about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
-      "soundcloud_url": null
-    },
-    {
-      "name": "Bobby Shunk",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/bobby.jpg",
-      "fun_img": "../images/individual/bobbyFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "David Brown",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/davidbrown.jpg",
-      "fun_img": "../images/individual/davidbrownFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "David Regan",
-      "linkedIn_url": "https://www.linkedin.com/in/david-regan-88bb2014a/",
-      "personal_site": null,
-      "github_url": "https://github.com/dregan35",
-      "pro_img": "../images/individual/davidregan.jpg",
-      "fun_img": "../images/individual/davidreganFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Dustin Walker",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/dustin.jpg",
-      "fun_img": "../images/individual/dustinFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Joshua Lloyd",
-      "linkedIn_url": "https://www.linkedin.com/in/joshuamlloyd/",
-      "personal_site": "http://www.joshualloyd.com/",
-      "github_url": "https://github.com/joshualloyd",
-      "pro_img": "../images/individual/joshlloyd.jpg",
-      "fun_img": "../images/individual/joshlloydFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Josh Meyers",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/joshmeyers.jpg",
-      "fun_img": "../images/individual/joshmeyersFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Jules Sepulveda",
-      "linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
-      "personal_site": "julessepulveda.io",
-      "github_url": "https://github.com/julessep",
-      "pro_img": "../images/individual/jules.jpg",
-      "fun_img": "../images/individual/julesFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    },
-    {
-      "name": "Sam Staff",
-      "linkedIn_url": null,
-      "personal_site": null,
-      "github_url": null,
-      "pro_img": "../images/individual/samstaff.jpg",
-      "fun_img": "../images/individual/samstaffFun.jpg",
-      "about_me": null,
-      "soundcloud_url": null
-    }
-  ]
+	"cohort": [
+		{
+			"name": "Arwa Kuterwadliwala",
+			"linkedIn_url": "https://www.linkedin.com/in/arwask/",
+			"personal_site": "http://arwask.com",
+			"github_url": "https://github.com/Arwask",
+			"pro_img": "../images/individual/arwa.jpg",
+			"fun_img": "../images/individual/arwaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jon Roberts",
+			"linkedIn_url": "https://www.linkedin.com/in/jon-roberts",
+			"personal_site": null,
+			"github_url": "https://github.com/thejonroberts",
+			"pro_img": "../images/individual/jon.jpg",
+			"fun_img": "../images/individual/jonFun.jpg",
+			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Emily Lemmon",
+			"linkedIn_url": "https://www.linkedin.com/in/emily-c-lemmon-59479513/",
+			"personal_site": "https://rian501.github.io/",
+			"github_url": "https://github.com/rian501",
+			"pro_img": "../images/individual/emily.jpg",
+			"fun_img": "../images/individual/emilyFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Megan Brown",
+			"linkedIn_url": "https://www.linkedin.com/in/megan-j-brown",
+			"personal_site": "http://www.meganbrown.codes",
+			"github_url": "https://github.com/megbrown",
+			"pro_img": "../images/individual/megan.jpg",
+			"fun_img": "../images/individual/meganFun.jpg",
+			"about_me":
+				"My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
+			"soundcloud_url": null
+		},
+		{
+			"name": "Greta Moseley",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/greta.jpg",
+			"fun_img": "../images/individual/gretaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Chris Mellor",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/chris.jpg",
+			"fun_img": "../images/individual/chrisFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jason Rial",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/jason.jpg",
+			"fun_img": "../images/individual/jasonFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Cait Rocco",
+			"linkedIn_url": "https://www.linkedin.com/in/cait-rocco/",
+			"personal_site": "https://www.caitrocco.com",
+			"github_url": "https://github.com/cait-rocco",
+			"pro_img": "../images/individual/cait.jpg",
+			"fun_img": "../images/individual/caitFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Glen Vollmer",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/glen.jpg",
+			"fun_img": "../images/individual/glenFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jevon Thomas",
+			"linkedIn_url": "https://www.linkedin.com/in/jevonthomas/",
+			"personal_site": "http://jevonthomas.com/",
+			"github_url": "https://github.com/jevonthomas",
+			"pro_img": "../images/individual/jevon.jpg",
+			"fun_img": "../images/individual/jevonFun2.jpg",
+			"about_me":
+				"Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
+			"soundcloud_url": null
+		},
+		{
+			"name": "Sam Baker",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/sambaker.jpg",
+			"fun_img": "../images/individual/sambakerFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Alana Smith",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/alana.jpg",
+			"fun_img": "../images/individual/alanaFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Aspen Humphrey",
+			"linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
+			"personal_site": "https://aspenhumphrey.github.io/",
+			"github_url": "https://github.com/AspenHumphrey",
+			"pro_img": "../images/individual/aspen.jpg",
+			"fun_img": "../images/individual/aspenFun.jpg",
+			"about_me":
+				"I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
+			"soundcloud_url": null
+		},
+		{
+			"name": "Bobby Shunk",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/bobby.jpg",
+			"fun_img": "../images/individual/bobbyFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "David Brown",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/davidbrown.jpg",
+			"fun_img": "../images/individual/davidbrownFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "David Regan",
+			"linkedIn_url": "https://www.linkedin.com/in/david-regan-88bb2014a/",
+			"personal_site": null,
+			"github_url": "https://github.com/dregan35",
+			"pro_img": "../images/individual/davidregan.jpg",
+			"fun_img": "../images/individual/davidreganFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Dustin Walker",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/dustin.jpg",
+			"fun_img": "../images/individual/dustinFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Joshua Lloyd",
+			"linkedIn_url": "https://www.linkedin.com/in/joshuamlloyd/",
+			"personal_site": "http://www.joshualloyd.com/",
+			"github_url": "https://github.com/joshualloyd",
+			"pro_img": "../images/individual/joshlloyd.jpg",
+			"fun_img": "../images/individual/joshlloydFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Josh Meyers",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/joshmeyers.jpg",
+			"fun_img": "../images/individual/joshmeyersFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Jules Sepulveda",
+			"linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
+			"personal_site": "julessepulveda.io",
+			"github_url": "https://github.com/julessep",
+			"pro_img": "../images/individual/jules.jpg",
+			"fun_img": "../images/individual/julesFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		},
+		{
+			"name": "Sam Staff",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "../images/individual/samstaff.jpg",
+			"fun_img": "../images/individual/samstaffFun.jpg",
+			"about_me": null,
+			"soundcloud_url": null
+		}
+	]
 }
