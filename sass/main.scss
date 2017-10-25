@@ -50,6 +50,37 @@ a {
   }
 }
 
+// FOOTER
+#footer {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+  ul {
+   padding: 0.6rem;
+  }
+    li {
+      list-style-type: none;
+      display: inline;
+      padding-right: 35px;
+    }
+      a {
+        color: $primary-color;
+      }
+      a:hover {
+        color: $light;
+      }
+
+#footer ul li a i {
+  color: $primary-color;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 485px) {
+  #footer ul li {
+    display: block;
+  }
+}
+
 // SECTIONS/HEADERS
 section {
   .container {
