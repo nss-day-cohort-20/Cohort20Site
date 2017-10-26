@@ -10,13 +10,14 @@ body {
 	background-color: $secondary-color;
 	color: $dark;
 	font-family: $font-stack;
-	padding-top: 60px;
+	padding-top: 40px;
 }
 
 //DARK THEME
 .darkThemedBg {
 	background-color: $dark;
-	color: $blood-red;
+	color: $fun-secondary-color;
+	font-family: $fun-font-stack;
 
 	section {
 		header {
@@ -24,16 +25,8 @@ body {
 		}
 	}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.navbar {
-		a {
-			font-family: $dark-font;
-		}
+	p {
+		font-family: $font-stack;
 	}
 
 	.container {
@@ -72,7 +65,7 @@ a {
 
 // NAVBAR
 .navbar {
-	background-color: $secondary-color;
+	background-color: $dark;
 	color: $primary-color;
 	z-index: 4;
 	// box-shadow: 1px 10px 5px gray;
@@ -95,7 +88,7 @@ a {
 section {
 	.container {
 		// TODO - this should change with color pallette
-		background-color: #fff;
+		background-color: $light;
 	}
 
 	header {
@@ -115,6 +108,13 @@ section {
 
 	article {
 		padding: 2rem;
+	}
+}
+
+#graduates {
+	header {
+		margin-left: -15px;
+		margin-right: 15px;
 	}
 }
 
