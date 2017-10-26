@@ -44,12 +44,12 @@
 		},
 		{
 			"name": "Greta Moseley",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/greta-moseley-93076a51/",
+ 			"personal_site": " https://mozecode.github.io/portfoliosite/",
+ 			"github_url": "https://github.com/mozecode",
 			"pro_img": "../images/individual/greta.jpg",
 			"fun_img": "../images/individual/gretaFun.jpg",
-			"about_me": null,
+			"about_me": "Construction project manager, Latin (language) lover, and geeky goddess in love with the craft of coding!",
 			"soundcloud_url": null
 		},
 		{
