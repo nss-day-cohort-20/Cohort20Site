@@ -10,6 +10,7 @@ body {
 	background-color: $secondary-color;
 	color: $dark;
 	font-family: $font-stack;
+	padding-top: 60px;
 }
 
 //DARK THEME
@@ -119,6 +120,8 @@ section {
 
 // GROUP PHOTO - layout for animation
 #groupPhotoContainer {
+	position: relative;
+
 	img {
 		border: 0;
 		left: 0;
