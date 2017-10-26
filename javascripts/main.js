@@ -6,7 +6,7 @@ require('handlebars');
 // handlebars templates
 let photogrid = require('../templates/photo_grid.hbs');
 let techGrid = require('../templates/technologies.hbs');
-let loadNav = require('../templates/navbar.hbs');
+// let loadNav = require('../templates/navbar.hbs');
 let loadFooter = require('../templates/footer.hbs');
 
 // student data in json file
@@ -14,7 +14,7 @@ const { cohort } = require('../data/cohort.json');
 // technologies data in json file
 const { technologies } = require('../data/technologies.json');
 
-$('#navbar').append(loadNav);
+// $('#navbar').append(loadNav);
 $('#footer').append(loadFooter);
 
 let studentInfoGrid = photogrid({ cohort });
@@ -96,5 +96,5 @@ $('#reloadButton').on('click', () => {
 });
 
 // current copyright year for footer
-let currentYear = (new Date).getFullYear();
+let currentYear = new Date().getFullYear();
 $('#current-year').text(currentYear);
