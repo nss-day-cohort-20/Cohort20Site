@@ -10,6 +10,7 @@ body {
 	background-color: $secondary-color;
 	color: $dark;
 	font-family: $font-stack;
+	padding-top: 60px;
 }
 
 //DARK THEME
@@ -84,6 +85,10 @@ a {
 			color: $light;
 		}
 	}
+
+	.navbar-nav {
+		width: 100%;
+	}
 }
 
 // SECTIONS/HEADERS
@@ -115,6 +120,8 @@ section {
 
 // GROUP PHOTO - layout for animation
 #groupPhotoContainer {
+	position: relative;
+
 	img {
 		border: 0;
 		left: 0;
@@ -125,7 +132,6 @@ section {
 
 	// animations need to be positioned over the empty chair photo
 	.progress-animation-photo {
-		margin-top: 1rem; // fixes offset from group-photo0
 		// width: 100%;
 		z-index: 1;
 	}
@@ -194,11 +200,6 @@ section {
 // TECHNOLOGIES GRID
 .logo-title {
 	padding: 1.5rem 0;
-}
-
-.logo-img {
-	height: auto;
-	width: 75%;
 }
 
 // FOOTER

@@ -14,7 +14,32 @@
 
 <body>
 
-	<div id="navbar" class="navbar"></div>
+	<nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top">
+		<a class="navbar-brand" href="#cohort">
+			<!-- <i class="fa fa-users" aria-hidden="true"></i> -->
+			Cohort 20
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+		 aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav d-inline-flex justify-content-around">
+				<li class="nav-item">
+					<a class="nav-item nav-link" href="#graduates">Graduates</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item nav-link" href="#technologies">Technologies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item nav-link" href="#nss">NSS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item nav-link" href="#thanks">Thanks</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<button class="btn btn-light rounded-circle darkThemeBtn" data-toggle="tooltip" data-placement="top" title="change to dark theme">
 		<i class="fa fa-moon-o" id="darkBtn" aria-hidden="true"></i>
@@ -22,28 +47,31 @@
 	</button>
 
 	<section id="cohort">
-		<div id="groupPhotoContainer">
-			<!-- empty chair photo - needs to stay rendered behind other photos to prevent collapse -->
-			<img src="./images/group/C20_Group_0.jpg" alt="C20 Progress Bar" id="groupPhoto0">
-			<!-- progress animation photos that will be hidden and shown via JS #reloadButton -->
-			<img src="./images/group/C20_Group_1.jpg" alt="C20 Progress Bar" id="groupPhoto1" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_2.jpg" alt="C20 Progress Bar" id="groupPhoto2" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_3.jpg" alt="C20 Progress Bar" id="groupPhoto3" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_4.jpg" alt="C20 Progress Bar" id="groupPhoto4" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_5.jpg" alt="C20 Progress Bar" id="groupPhoto5" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_6.jpg" alt="C20 Progress Bar" id="groupPhoto6" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_7.jpg" alt="C20 Progress Bar" id="groupPhoto7" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_8.jpg" alt="C20 Progress Bar" id="groupPhoto8" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_9.jpg" alt="C20 Progress Bar" id="groupPhoto9" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_10.jpg" alt="C20 Progress Bar" id="groupPhoto10" class="progress-animation-photo hide">
-			<img src="./images/group/C20_Group_11.jpg" alt="C20 Progress Bar" id="groupPhoto11" class="progress-animation-photo hide">
-			<!-- final group photo to remain shown -->
-			<img src="./images/group/C20_Group_Final.jpg" alt="Group photo of Cohort 20" id="groupPhoto12" class="progress-animation-photo hide">
-			<button id="reloadButton" class="btn btn-secondary">
-				<i class="fa fa-refresh" aria-hidden="true">
-				</i>
-				Reload
-			</button>
+		<div class="container">
+			<div id="groupPhotoContainer">
+				<!-- empty chair photo - needs to stay rendered behind other photos to prevent collapse -->
+				<img src="./images/group/C20_Group_0.jpg" alt="C20 Progress Bar" id="groupPhoto0">
+				<!-- progress animation photos that will be hidden and shown via JS #reloadButton -->
+				<img src="./images/group/C20_Group_1.jpg" alt="C20 Progress Bar" id="groupPhoto1" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_2.jpg" alt="C20 Progress Bar" id="groupPhoto2" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_3.jpg" alt="C20 Progress Bar" id="groupPhoto3" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_4.jpg" alt="C20 Progress Bar" id="groupPhoto4" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_5.jpg" alt="C20 Progress Bar" id="groupPhoto5" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_6.jpg" alt="C20 Progress Bar" id="groupPhoto6" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_7.jpg" alt="C20 Progress Bar" id="groupPhoto7" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_8.jpg" alt="C20 Progress Bar" id="groupPhoto8" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_9.jpg" alt="C20 Progress Bar" id="groupPhoto9" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_10.jpg" alt="C20 Progress Bar" id="groupPhoto10" class="progress-animation-photo hide">
+				<img src="./images/group/C20_Group_11.jpg" alt="C20 Progress Bar" id="groupPhoto11" class="progress-animation-photo hide">
+				<!-- final group photo to remain shown -->
+				<img src="./images/group/C20_Group_Final.jpg" alt="Group photo of Cohort 20" id="groupPhoto12" class="progress-animation-photo hide">
+				<!-- animation reload button -->
+				<button id="reloadButton" class="btn btn-dark">
+					<i class="fa fa-refresh" aria-hidden="true">
+					</i>
+					Reload
+				</button>
+			</div>
 		</div>
 	</section>
 
@@ -59,7 +87,7 @@
 		</article>
 	</section>
 
-	<section id="technology">
+	<section id="technologies">
 		<header>
 			<div class="container">
 				<h3>Technologies</h3>
@@ -97,11 +125,27 @@
 			<article>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
 					ad dolorem magni maiores facilis laboriosam illum. Cumque voluptatum quasi recusandae nam fuga neque quae?</p>
+				<p>All photography on the site is by
+					<a href="http://www.ingehooker.com/" target="_blank">
+						<!-- <i class="fa fa-camera" aria-hidden="true"></i> -->
+						Inge Hooker</a>.</p>
+				</li>
+				</ul>
+				</p>
 			</article>
 		</div>
 	</section>
 
-	<div id="footer" class="container"></div>
+	<footer id="footer" class="footer">
+		<div class="container text-muted">
+			<ul>
+				<li>
+					<span>&copy;
+						<span id="current-year"></span> | Cohort 20</span>
+				</li>
+			</ul>
+		</div>
+	</footer>
 
 	<script src="./lib/node_modules/jquery/dist/jquery.js "></script>
 	<script src="./lib/node_modules/popper.js/dist/umd/popper.js "></script>
