@@ -6,14 +6,11 @@ require('handlebars');
 // handlebars templates
 let photogrid = require('../templates/photo_grid.hbs');
 let techGrid = require('../templates/technologies.hbs');
-let loadFooter = require('../templates/footer.hbs');
 
 // student data in json file
 const { cohort } = require('../data/cohort.json');
 // technologies data in json file
 const { technologies } = require('../data/technologies.json');
-
-$('#footer').append(loadFooter);
 
 let studentInfoGrid = photogrid({ cohort });
 $('#photoGrid').append(studentInfoGrid);
@@ -25,7 +22,6 @@ $('.overlay-container').hover(toFunPic, toProPic);
 
 // switch to fun pic on hover
 function toFunPic() {
-	// console.log('this', this);
 	$(this)
 		.find('.profile-pic')
 		.addClass('hide');
@@ -41,16 +37,11 @@ function toProPic() {
 		.find('.profile-pic')
 		.removeClass('hide');
 }
-// if ($('#regBtn').hasClass('hide')) {
-//   $('.overlay-container').hover(toFunPic, toProPic);
-// } else {
-//   $('.overlay-container').hover(toProPic, toFunPic);
-// }
+
 $('#darkBtn').on('click', () => {
 	$('#darkBtn').addClass('hide');
 
 	$('#regBtn').removeClass('hide');
-	// $('.scaryTheme').addClass('hide');
 	$('body').addClass('darkThemedBg');
 	$('.fun-pic').removeClass('hide');
 	$('.fun-pic').removeClass('opaque-pic');
@@ -63,7 +54,6 @@ $('#regBtn').on('click', () => {
 	$('#darkBtn').removeClass('hide');
 	$('#regBtn').addClass('hide');
 	$('body').removeClass('darkThemedBg');
-	// $('.scaryTheme').removeClass('hide');
 	$('.profile-pic').removeClass('hide');
 	$('.profile-pic').removeClass('opaque-pic');
 	$('.fun-pic').addClass('hide');
@@ -72,7 +62,6 @@ $('#regBtn').on('click', () => {
 });
 
 // animation runs on load; hiding/showing images
-
 function reloadAnimation() {
 	(function loadingAnimation(i) {
 		setTimeout(function() {
