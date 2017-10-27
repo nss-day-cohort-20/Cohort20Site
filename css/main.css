@@ -54,6 +54,10 @@ button i {
       background-color: inherit; }
   .fun-theme p {
     font-family: "Work Sans", sans-serif; }
+  .fun-theme footer a {
+    color: #fcfcfc; }
+    .fun-theme footer a:hover {
+      color: #817fff; }
 
 .fun-theme-btn {
   bottom: 10px;
@@ -171,19 +175,19 @@ section article {
 .logo-img {
   background-color: #fcfcfc; }
 
-#footer {
+footer {
   background-color: #14171b;
   color: #ed5e34; }
-  #footer ul {
+  footer ul {
     margin-bottom: 0;
     padding: 0.6rem; }
-  #footer li {
+  footer li {
     display: inline;
     list-style-type: none;
     padding-right: 35px; }
-  #footer a {
+  footer a {
     color: #ed5e34; }
-    #footer a:hover {
+    footer a:hover {
       color: #fcfcfc; }
 
 @media only screen and (max-width: 485px) {

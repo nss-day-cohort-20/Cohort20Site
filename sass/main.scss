@@ -74,13 +74,13 @@ button {
 				color: $fun-accent-color;
 			}
 		}
-}
+	}
 
 	button {
 		i {
 			color: inherit;
 		}
-}
+	}
 
 	section {
 		header {
@@ -94,6 +94,16 @@ button {
 
 	p {
 		font-family: $font-stack;
+	}
+
+	footer {
+		a {
+			color: $light;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
 	}
 
 }
@@ -281,7 +291,7 @@ section {
 }
 
 // FOOTER
-#footer {
+footer {
 	background-color: $dark;
 	color: $primary-color;
 
