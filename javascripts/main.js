@@ -40,9 +40,8 @@ function toProPic() {
 
 $('#darkBtn').on('click', () => {
 	$('#darkBtn').addClass('hide');
-
 	$('#regBtn').removeClass('hide');
-	$('body').addClass('darkThemedBg');
+	$('body').addClass('fun-theme');
 	$('.fun-pic').removeClass('hide');
 	$('.fun-pic').removeClass('opaque-pic');
 	$('.profile-pic').addClass('hide');
@@ -53,7 +52,7 @@ $('#darkBtn').on('click', () => {
 $('#regBtn').on('click', () => {
 	$('#darkBtn').removeClass('hide');
 	$('#regBtn').addClass('hide');
-	$('body').removeClass('darkThemedBg');
+	$('body').removeClass('fun-theme');
 	$('.profile-pic').removeClass('hide');
 	$('.profile-pic').removeClass('opaque-pic');
 	$('.fun-pic').addClass('hide');
