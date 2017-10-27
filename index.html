@@ -6,22 +6,30 @@
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="lib/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Work+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Nosifer" rel="stylesheet">
+
+	<!-- DEVELOPMENT dependencies - uncomment during dev
+	<link href="lib/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"> -->
+
+	<!-- CDN dependencies -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	 crossorigin="anonymous">
+	<!-- styles -->
 	<link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top">
+	<nav id="navbar" class="navbar navbar-expand-md fixed-top">
 		<a class="navbar-brand" href="#cohort">
-			<!-- <i class="fa fa-users" aria-hidden="true"></i> -->
 			Cohort 20
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 		 aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<i class="fa fa-bars" aria-hidden="true"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav d-inline-flex justify-content-around">
@@ -41,9 +49,9 @@
 		</div>
 	</nav>
 
-	<button class="btn btn-light rounded-circle darkThemeBtn" data-toggle="tooltip" data-placement="top" title="change to dark theme">
-		<i class="fa fa-moon-o" id="darkBtn" aria-hidden="true"></i>
-		<i class="fa fa-sun-o hide" id="regBtn" aria-hidden="true"></i>
+	<button class="btn btn-light rounded-circle fun-theme-btn" data-toggle="tooltip" data-placement="top" title="change to dark theme">
+		<i class="fa fa-smile-o" id="darkBtn" aria-hidden="true"></i>
+		<i class="fa fa-laptop hide" id="regBtn" aria-hidden="true"></i>
 	</button>
 
 	<section id="cohort">
@@ -83,8 +91,8 @@
 		</header>
 		<article class="container">
 			<div id="photoGrid">
-			</div>
 		</article>
+		</div>
 	</section>
 
 	<section id="technologies">
@@ -93,11 +101,9 @@
 				<h3>Technologies</h3>
 			</div>
 		</header>
-		<div class="container">
-			<article>
-				<div id="techGrid">
-				</div>
-			</article>
+		<article class="container">
+			<div id="techGrid">
+		</article>
 		</div>
 	</section>
 
@@ -107,12 +113,10 @@
 				<h3>Nashville Software School</h3>
 			</div>
 		</header>
-		<div class="container">
-			<article>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
-					ad dolorem magni maiores facilis laboriosam
-			</article>
-		</div>
+		<article class="container">
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
+				ad dolorem magni maiores facilis laboriosam
+		</article>
 	</section>
 
 	<section id="thanks">
@@ -121,36 +125,46 @@
 				<h3>Thank you!</h3>
 			</div>
 		</header>
-		<div class="container">
-			<article>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
-					ad dolorem magni maiores facilis laboriosam illum. Cumque voluptatum quasi recusandae nam fuga neque quae?</p>
-				<p>All photography on the site is by
-					<a href="http://www.ingehooker.com/" target="_blank">
-						<!-- <i class="fa fa-camera" aria-hidden="true"></i> -->
-						Inge Hooker</a>.</p>
-				</li>
-				</ul>
-				</p>
-			</article>
-		</div>
+		<article class="container">
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor libero dignissimos nobis reprehenderit atque assumenda,
+				ad dolorem magni maiores facilis laboriosam illum. Cumque voluptatum quasi recusandae nam fuga neque quae?</p>
+			<p>All photography on the site is by
+				<a href="http://www.ingehooker.com/" target="_blank">
+					Inge Hooker</a>.</p>
+			</li>
+			</ul>
+		</article>
 	</section>
 
 	<footer id="footer" class="footer">
 		<div class="container text-muted">
-			<ul>
+			<ul class="d-flex justify-content-between">
 				<li>
 					<span>&copy;
 						<span id="current-year"></span> | Cohort 20</span>
+				</li>
+				<li>
+					<a href="https://github.com/nss-day-cohort-20/Cohort20Site" target="_blank">github</a>
 				</li>
 			</ul>
 		</div>
 	</footer>
 
-	<script src="./lib/node_modules/jquery/dist/jquery.js "></script>
-	<script src="./lib/node_modules/popper.js/dist/umd/popper.js "></script>
-	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
-	<script src="./lib/node_modules/bootstrap/dist/js/bootstrap.js "></script>
+	<!-- dependencies - DURING DEVELOPMENT -->
+	<!-- <script src="./lib/node_modules/jquery/dist/jquery.js "></script> -->
+	<!-- <script src="./lib/node_modules/popper.js/dist/umd/popper.js "></script> -->
+	<!-- <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script> -->
+	<!-- <script src="./lib/node_modules/bootstrap/dist/js/bootstrap.js "></script> -->
+
+	<!-- dependencies - live -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+	 crossorigin="anonymous"></script>
+
+	<!-- APP -->
 	<script src="./dist/app.js "></script>
 	<!-- ATTRIBUTIONS -->
 </body>
