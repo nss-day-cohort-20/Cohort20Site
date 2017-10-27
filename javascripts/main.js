@@ -64,7 +64,7 @@ $('#regBtn').on('click', () => {
 // animation runs on load; hiding/showing images
 function reloadAnimation() {
 	(function loadingAnimation(i) {
-		setTimeout(function() {
+		setTimeout(function () {
 			$(`#groupPhoto${i}`).addClass('hide');
 			$(`#groupPhoto${i + 1}`).removeClass('hide');
 			if (++i < 12) {

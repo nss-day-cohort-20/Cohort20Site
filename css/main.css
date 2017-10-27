@@ -1,0 +1,147 @@
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #09092c;
+  color: #161616;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px; }
+
+.darkThemedBg {
+  background-color: #161616;
+  color: red; }
+  .darkThemedBg section header {
+    background-color: #161616; }
+  .darkThemedBg h1 a,
+  .darkThemedBg h2 a,
+  .darkThemedBg h3 a,
+  .darkThemedBg h4 a,
+  .darkThemedBg h5 a,
+  .darkThemedBg h6 a,
+  .darkThemedBg .navbar a {
+    font-family: "Fredericka the Great", cursive; }
+  .darkThemedBg .container {
+    background-color: #161616; }
+
+.darkThemeBtn {
+  bottom: 10px;
+  position: fixed;
+  right: 10px;
+  z-index: 2; }
+  .darkThemeBtn i {
+    font-size: 2em; }
+
+a {
+  color: #161616; }
+  a:hover {
+    color: #a3d3e1;
+    text-decoration: none; }
+
+.col-lg-3,
+.col-md-4,
+.col-sm-6 {
+  border: 1px solid transparent; }
+
+.navbar {
+  background-color: #09092c;
+  color: #a3d3e1;
+  z-index: 4; }
+  .navbar a {
+    color: #a3d3e1; }
+    .navbar a:hover {
+      color: #e7e1e1; }
+  .navbar .navbar-nav {
+    width: 100%; }
+
+section .container {
+  background-color: #fff; }
+section header {
+  background-color: #a3d3e1;
+  padding: 1.5rem;
+  width: 100%; }
+  section header .container {
+    background-color: inherit; }
+  section header h3 {
+    margin: 0;
+    width: 100%; }
+section article {
+  padding: 2rem; }
+
+#groupPhotoContainer {
+  position: relative; }
+  #groupPhotoContainer img {
+    border: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  #groupPhotoContainer .progress-animation-photo {
+    z-index: 1; }
+  #groupPhotoContainer #groupPhoto0 {
+    position: relative;
+    width: 100%;
+    z-index: 0; }
+  #groupPhotoContainer button {
+    border: 0;
+    bottom: 50px;
+    left: 20px;
+    position: relative;
+    z-index: 2; }
+
+.overlay-container {
+  position: relative; }
+  .overlay-container:hover .overlay {
+    height: 100%; }
+
+.card {
+  background-color: #e7e1e1;
+  margin-bottom: 1rem; }
+
+.profile-pic {
+  display: block;
+  height: auto;
+  width: 100%; }
+
+.opaque-pic {
+  opacity: 0.4; }
+
+.overlay {
+  bottom: 0;
+  height: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  transition: 0.5s ease;
+  width: 100%; }
+
+.description {
+  overflow: hidden;
+  position: absolute; }
+
+.logo-title {
+  padding: 1.5rem 0; }
+
+#footer {
+  background-color: #09092c;
+  color: #a3d3e1; }
+  #footer ul {
+    padding: 0.6rem; }
+  #footer li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 35px; }
+  #footer a {
+    color: #a3d3e1; }
+    #footer a:hover {
+      color: #e7e1e1; }
+    #footer a i {
+      margin-right: 10px; }
+
+@media only screen and (max-width: 485px) {
+  #footer ul li {
+    display: block; } }
+.hide {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
