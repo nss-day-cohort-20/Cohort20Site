@@ -40,7 +40,6 @@ function toProPic() {
 
 $('#darkBtn').on('click', () => {
 	$('#darkBtn').addClass('hide');
-
 	$('#regBtn').removeClass('hide');
 	$('body').addClass('fun-theme');
 	$('.fun-pic').removeClass('hide');
