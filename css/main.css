@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #f5f9ff;
-  background-image: url("/images/03.png");
+  background-image: url("../images/03.png");
   color: #14171b;
   font-family: "Work Sans", sans-serif;
   padding-top: 40px; }
