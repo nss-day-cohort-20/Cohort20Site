@@ -1,4 +1,5 @@
 @import 'variables';
+/* eslint-disable max-len */
 
 // basic layout
 html {
@@ -8,9 +9,20 @@ html {
 // FONTS AND THEME
 body {
 	background-color: $secondary-color;
+	background-image: url('/images/03.png');
 	color: $dark;
 	font-family: $font-stack;
 	padding-top: 40px;
+}
+
+// links (& social icons in profile grid)
+a {
+	color: $dark;
+
+	&:hover {
+		color: $primary-color;
+		text-decoration: none;
+	}
 }
 
 //DARK THEME
@@ -46,16 +58,6 @@ body {
 	}
 }
 
-// links (& social icons in profile grid)
-a {
-	color: $dark;
-
-	&:hover {
-		color: $primary-color;
-		text-decoration: none;
-	}
-}
-
 // safari flexbox grid fix - https://getbootstrap.com/docs/4.0/layout/grid/ - Auto-layout columns
 .col-lg-3,
 .col-md-4,
@@ -87,12 +89,12 @@ a {
 // SECTIONS/HEADERS
 section {
 	.container {
-		// TODO - this should change with color pallette
 		background-color: $light;
 	}
 
 	header {
 		background-color: $primary-color;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 		padding: 1.5rem;
 		width: 100%;
 
@@ -190,6 +192,10 @@ section {
 	position: absolute;
 }
 
+.profile-links {
+	font-size: 1.5rem;
+}
+
 // TECHNOLOGIES GRID
 .logo-title {
 	padding: 1.5rem 0;
@@ -197,11 +203,12 @@ section {
 
 // FOOTER
 #footer {
-	background-color: $secondary-color;
+	background-color: $dark;
 	color: $primary-color;
 
 	ul {
 		padding: 0.6rem;
+		margin-bottom: 0;
 	}
 
 	li {
