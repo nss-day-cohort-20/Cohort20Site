@@ -28,7 +28,7 @@
 			"github_url": "https://github.com/rian501",
 			"pro_img": "images/individual/emily.jpg",
 			"fun_img": "images/individual/emilyFun.jpg",
-			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself.",
+			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself. I'm so happy to be learning such a versatile foreign language. From Classical Latin to Japanese to Javascript...!",
 			"soundcloud_url": null
 		},
 		{
@@ -112,23 +112,13 @@
 			"soundcloud_url": null
 		},
 		{
-			"name": "Alana Smith",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
-			"pro_img": "images/individual/alana.jpg",
-			"fun_img": "images/individual/alanaFun.jpg",
-			"about_me": null,
-			"soundcloud_url": null
-		},
-		{
 			"name": "Aspen Humphrey",
 			"linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
 			"personal_site": "https://aspenhumphrey.github.io/",
 			"github_url": "https://github.com/AspenHumphrey",
 			"pro_img": "images/individual/aspen.jpg",
 			"fun_img": "images/individual/aspenFun.jpg",
-			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
+			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software development has given me an opportunity to make things for others that are exciting and helpful!",
 			"soundcloud_url": null
 		},
 		{
@@ -163,13 +153,13 @@
 		},
 		{
 			"name": "Dustin Walker",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
 			"pro_img": "images/individual/dustin.jpg",
 			"fun_img": "images/individual/dustinFun.jpg",
-			"about_me": null,
-			"soundcloud_url": null
+			"soundcloud_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/dustin-lee-walker",
+			"personal_site": "www.dlwalker.tech",
+			"github_url": "https://github.com/DLWalker1234",
+			"about_me":  "I enjoy challenges and supremely believe in doing things that make you uncomfortable. Building web-apps and back-end development is a passion and skill-set I am continually honing."
 		},
 		{
 			"name": "Joshua Lloyd",
@@ -209,6 +199,16 @@
 			"pro_img": "images/individual/samstaff.jpg",
 			"fun_img": "images/individual/samstaffFun.jpg",
 			"about_me": "What drew me to software development is the problem solving aspect. I enjoy the feeling of making a new application and improving its value as a part of building a better future! It meshes well with what I’ve already been doing and will provide a new outlet for my creative skills.",
+			"soundcloud_url": null
+		},
+		{
+			"name": "Alana Smith",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "images/individual/alana.jpg",
+			"fun_img": "images/individual/alanaFun.jpg",
+			"about_me": null,
 			"soundcloud_url": null
 		}
 	]
