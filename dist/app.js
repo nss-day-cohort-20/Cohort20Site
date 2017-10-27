@@ -8,7 +8,7 @@ module.exports={
 			"github_url": "https://github.com/Arwask",
 			"pro_img": "images/individual/arwa.jpg",
 			"fun_img": "images/individual/arwaFun.jpg",
-			"about_me": null,
+			"about_me": "I am an IT graduate with experience in teaching as a Trainee Lecturer and in love with programming. I enjoy problem solving and never want to miss the chance to learn something new.",
 			"soundcloud_url": null
 		},
 		{
@@ -104,12 +104,12 @@ module.exports={
 		},
 		{
 			"name": "Sam Baker",
-			"linkedIn_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/sambdev/",
 			"personal_site": null,
-			"github_url": null,
+			"github_url": "https://github.com/SamBDev",
 			"pro_img": "images/individual/sambaker.jpg",
 			"fun_img": "images/individual/sambakerFun.jpg",
-			"about_me": null,
+			"about_me": "Currently an Apprentice Software Developer. Most interested in Computer and Information Security. Excited to continue learning and programming!",
 			"soundcloud_url": null
 		},
 		{
@@ -159,7 +159,7 @@ module.exports={
 			"github_url": "https://github.com/dregan35",
 			"pro_img": "images/individual/davidregan.jpg",
 			"fun_img": "images/individual/davidreganFun.jpg",
-			"about_me": null,
+			"about_me": "I have had the passion to solve problems since I was a small child and that passion grew once I was introduced to technology. I revel in the opportunities computer software and hardware present me, whether it's soldiering points on a printed circuit board or creating an awesome application. I have the pleasure of attending Nashville Software School where opportunities to use the latest technologies in the industry have me excited to see what each new day brings.",
 			"soundcloud_url": null
 		},
 		{
@@ -179,7 +179,7 @@ module.exports={
 			"github_url": "https://github.com/joshualloyd",
 			"pro_img": "images/individual/joshlloyd.jpg",
 			"fun_img": "images/individual/joshlloydFun.jpg",
-			"about_me": null,
+			"about_me": "I have always enjoyed making, revising and improving things. Prior to NSS I channeled that desire into in graphic design and eventually started down the path of creating for the web. Using my newfound skills I look forward to building the web, not just making it pretty.",
 			"soundcloud_url": null
 		},
 		{
