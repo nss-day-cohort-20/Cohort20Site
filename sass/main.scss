@@ -16,7 +16,8 @@ body {
 }
 
 // links (& social icons in profile grid)
-a {
+a,
+i {
 	color: $dark;
 
 	&:hover {
@@ -36,12 +37,22 @@ a {
 	}
 
 	nav {
-		a {
+
+		a,
+		i {
 			color: $light;
 
 			&:hover {
 				color: $fun-accent-color;
 			}
+		}
+	}
+
+	a {
+		color: $fun-accent-color;
+
+		&:hover {
+			color: $fun-secondary-color;
 		}
 	}
 
@@ -57,6 +68,10 @@ a {
 
 	p {
 		font-family: $font-stack;
+	}
+
+	.card {
+		color: $dark;
 	}
 
 }
@@ -85,6 +100,7 @@ a {
 	background-color: $dark;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	color: $primary-color;
+	font-size: 1.3rem;
 	z-index: 4;
 
 	.navbar-brand {
@@ -92,7 +108,8 @@ a {
 	}
 
 	// nav links
-	a {
+	a,
+	i {
 		color: $primary-color;
 
 		&:hover {
@@ -230,8 +247,8 @@ section {
 	color: $primary-color;
 
 	ul {
-		padding: 0.6rem;
 		margin-bottom: 0;
+		padding: 0.6rem;
 	}
 
 	li {
@@ -246,18 +263,19 @@ section {
 		&:hover {
 			color: $light;
 		}
-
-		i {
-			margin-right: 10px;
-		}
 	}
 }
 
 @media only screen and (max-width: 485px) {
-	#footer ul li {
-		display: block;
+	footer {
+		ul {
+			li {
+				display: block;
+			}
+		}
 	}
 }
+
 
 // HIDE CLASS
 .hide {
