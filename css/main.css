@@ -1,67 +1,41 @@
-/* eslint-disable max-len */
 html {
   font-size: 16px; }
 
 body {
-  background-color: #f5f9ff;
-  background-image: url("/images/03.png");
-  color: #14171b;
-  font-family: "Work Sans", sans-serif;
-  padding-top: 40px; }
+  background-color: #09092c;
+  color: #161616;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px; }
 
-a,
-i {
-  color: #14171b; }
-  a:hover,
-  i:hover {
-    color: #ed5e34;
-    text-decoration: none; }
+.darkThemedBg {
+  background-color: #161616;
+  color: red; }
+  .darkThemedBg section header {
+    background-color: #161616; }
+  .darkThemedBg h1 a,
+  .darkThemedBg h2 a,
+  .darkThemedBg h3 a,
+  .darkThemedBg h4 a,
+  .darkThemedBg h5 a,
+  .darkThemedBg h6 a,
+  .darkThemedBg .navbar a {
+    font-family: "Fredericka the Great", cursive; }
+  .darkThemedBg .container {
+    background-color: #161616; }
 
-button i {
-  color: inherit; }
-
-.fun-theme {
-  background-color: #99e1d9;
-  color: #fcfcfc;
-  font-family: "Bungee Inline", sans-serif; }
-  .fun-theme .container {
-    background-color: #14171b; }
-  .fun-theme nav a,
-  .fun-theme nav i {
-    color: #fcfcfc; }
-    .fun-theme nav a:hover,
-    .fun-theme nav i:hover {
-      color: #817fff; }
-  .fun-theme a,
-  .fun-theme i {
-    color: #99e1d9; }
-    .fun-theme a:hover,
-    .fun-theme i:hover {
-      color: #817fff; }
-  .fun-theme .card {
-    color: #14171b; }
-    .fun-theme .card a,
-    .fun-theme .card i {
-      color: #14171b; }
-      .fun-theme .card a:hover,
-      .fun-theme .card i:hover {
-        color: #817fff; }
-  .fun-theme button i {
-    color: inherit; }
-  .fun-theme section header {
-    background-color: #f7567c; }
-    .fun-theme section header .container {
-      background-color: inherit; }
-  .fun-theme p {
-    font-family: "Work Sans", sans-serif; }
-
-.fun-theme-btn {
+.darkThemeBtn {
   bottom: 10px;
   position: fixed;
   right: 10px;
   z-index: 2; }
-  .fun-theme-btn i {
+  .darkThemeBtn i {
     font-size: 2em; }
+
+a {
+  color: #161616; }
+  a:hover {
+    color: #a3d3e1;
+    text-decoration: none; }
 
 .col-lg-3,
 .col-md-4,
@@ -69,27 +43,20 @@ button i {
   border: 1px solid transparent; }
 
 .navbar {
-  background-color: #14171b;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  color: #ed5e34;
-  font-size: 1.3rem;
+  background-color: #09092c;
+  color: #a3d3e1;
   z-index: 4; }
-  .navbar .navbar-brand {
-    color: #fcfcfc; }
-  .navbar a,
-  .navbar i {
-    color: #ed5e34; }
-    .navbar a:hover,
-    .navbar i:hover {
-      color: #fcfcfc; }
+  .navbar a {
+    color: #a3d3e1; }
+    .navbar a:hover {
+      color: #e7e1e1; }
   .navbar .navbar-nav {
     width: 100%; }
 
 section .container {
-  background-color: #fcfcfc; }
+  background-color: #fff; }
 section header {
-  background-color: #ed5e34;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  background-color: #a3d3e1;
   padding: 1.5rem;
   width: 100%; }
   section header .container {
@@ -127,11 +94,8 @@ section article {
     height: 100%; }
 
 .card {
-  background-color: #fcfcfc;
+  background-color: #e7e1e1;
   margin-bottom: 1rem; }
-
-.card-body {
-  font-size: 0.95rem; }
 
 .profile-pic {
   display: block;
@@ -155,32 +119,27 @@ section article {
   overflow: hidden;
   position: absolute; }
 
-.profile-links {
-  font-size: 1.5rem; }
-
 .logo-title {
   padding: 1.5rem 0; }
 
-.logo-img {
-  background-color: #fcfcfc; }
-
 #footer {
-  background-color: #14171b;
-  color: #ed5e34; }
+  background-color: #09092c;
+  color: #a3d3e1; }
   #footer ul {
-    margin-bottom: 0;
     padding: 0.6rem; }
   #footer li {
     display: inline;
     list-style-type: none;
     padding-right: 35px; }
   #footer a {
-    color: #ed5e34; }
+    color: #a3d3e1; }
     #footer a:hover {
-      color: #fcfcfc; }
+      color: #e7e1e1; }
+    #footer a i {
+      margin-right: 10px; }
 
 @media only screen and (max-width: 485px) {
-  footer ul li {
+  #footer ul li {
     display: block; } }
 .hide {
   display: none; }

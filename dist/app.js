@@ -6,8 +6,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/arwask/",
 			"personal_site": "http://arwask.com",
 			"github_url": "https://github.com/Arwask",
-			"pro_img": "../images/individual/arwa.jpg",
-			"fun_img": "../images/individual/arwaFun.jpg",
+			"pro_img": "images/individual/arwa.jpg",
+			"fun_img": "images/individual/arwaFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -16,8 +16,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/jon-roberts",
 			"personal_site": "http://www.thejonroberts.com",
 			"github_url": "https://github.com/thejonroberts",
-			"pro_img": "../images/individual/jon.jpg",
-			"fun_img": "../images/individual/jonFun.jpg",
+			"pro_img": "images/individual/jon.jpg",
+			"fun_img": "images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
 			"about_me": "I have a background in math education and hospitality. I view software development as a craft, and love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn.",
 			"soundcloud_url": null
@@ -27,8 +27,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/emily-c-lemmon-59479513/",
 			"personal_site": "https://rian501.github.io/",
 			"github_url": "https://github.com/rian501",
-			"pro_img": "../images/individual/emily.jpg",
-			"fun_img": "../images/individual/emilyFun.jpg",
+			"pro_img": "images/individual/emily.jpg",
+			"fun_img": "images/individual/emilyFun.jpg",
 			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself.",
 			"soundcloud_url": null
 		},
@@ -37,8 +37,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/megan-j-brown",
 			"personal_site": "http://www.meganbrown.codes",
 			"github_url": "https://github.com/megbrown",
-			"pro_img": "../images/individual/megan.jpg",
-			"fun_img": "../images/individual/meganFun.jpg",
+			"pro_img": "images/individual/megan.jpg",
+			"fun_img": "images/individual/meganFun.jpg",
 			"about_me": "My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
 			"soundcloud_url": null
 		},
@@ -47,8 +47,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/greta-moseley-93076a51/",
 			"personal_site": " https://mozecode.github.io/portfoliosite/",
 			"github_url": "https://github.com/mozecode",
-			"pro_img": "../images/individual/greta.jpg",
-			"fun_img": "../images/individual/gretaFun.jpg",
+			"pro_img": "images/individual/greta.jpg",
+			"fun_img": "images/individual/gretaFun.jpg",
 			"about_me": "Construction project manager, Latin (language) lover, and geeky goddess in love with the craft of coding!",
 			"soundcloud_url": null
 		},
@@ -58,8 +58,8 @@ module.exports={
 			"personal_site": "www.chrismellor.net",
 			"github_url": "https://github.com/chrismellor08",
 			"about_me": "Perpetually finding ways to marry my love for the creative process and my affinity for logic/critical thinking. Probably making people laugh in the process. I took a test that told me I was a Virtuoso, and I like the way that sounds.",
-			"pro_img": "../images/individual/chris.jpg",
-			"fun_img": "../images/individual/chrisFun.jpg",
+			"pro_img": "images/individual/chris.jpg",
+			"fun_img": "images/individual/chrisFun.jpg",
 			"soundcloud_url": null
 		},
 		{
@@ -68,8 +68,8 @@ module.exports={
 			"github_url": "https://github.com/An-AngryBear",
 			"about_me": "A full-stack apprentice software developer with strong communication and problem-solving skills. Always looking to expand my skill base and absorb knowledge.",
 			"personal_site": null,
-			"pro_img": "../images/individual/jason.jpg",
-			"fun_img": "../images/individual/jasonFun.jpg",
+			"pro_img": "images/individual/jason.jpg",
+			"fun_img": "images/individual/jasonFun.jpg",
 			"soundcloud_url": null
 		},
 		{
@@ -77,8 +77,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/cait-rocco/",
 			"personal_site": "https://www.caitrocco.com",
 			"github_url": "https://github.com/cait-rocco",
-			"pro_img": "../images/individual/cait.jpg",
-			"fun_img": "../images/individual/caitFun.jpg",
+			"pro_img": "images/individual/cait.jpg",
+			"fun_img": "images/individual/caitFun.jpg",
 			"about_me": "My goal is to work collaboratively, finding creative ways to use code to communicate ideas, interact with users, and provide a positive experience.",
 			"soundcloud_url": null
 		},
@@ -87,8 +87,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/glenvollmer/",
 			"personal_site": null,
 			"github_url": "https://github.com/glenvollmer",
-			"pro_img": "../images/individual/glen.jpg",
-			"fun_img": "../images/individual/glenFun.jpg",
+			"pro_img": "images/individual/glen.jpg",
+			"fun_img": "images/individual/glenFun.jpg",
 			"about_me": "Hey! A little about me, I am a Junior Software Developer currently attending Nashville Software School focusing on web development with Javascript and Node.js. I enjoy Learning, Tinkering, and Creating. When I am not cracking the code I enjoy making and indulging in art, film, and music",
 			"soundcloud_url": null
 		},
@@ -97,8 +97,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/jevonthomas/",
 			"personal_site": "http://jevonthomas.com/",
 			"github_url": "https://github.com/jevonthomas",
-			"pro_img": "../images/individual/jevon.jpg",
-			"fun_img": "../images/individual/jevonFun2.jpg",
+			"pro_img": "images/individual/jevon.jpg",
+			"fun_img": "images/individual/jevonFun2.jpg",
 			"about_me": "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
 			"soundcloud_url": null
 		},
@@ -107,8 +107,8 @@ module.exports={
 			"linkedIn_url": null,
 			"personal_site": null,
 			"github_url": null,
-			"pro_img": "../images/individual/sambaker.jpg",
-			"fun_img": "../images/individual/sambakerFun.jpg",
+			"pro_img": "images/individual/sambaker.jpg",
+			"fun_img": "images/individual/sambakerFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -117,8 +117,8 @@ module.exports={
 			"linkedIn_url": null,
 			"personal_site": null,
 			"github_url": null,
-			"pro_img": "../images/individual/alana.jpg",
-			"fun_img": "../images/individual/alanaFun.jpg",
+			"pro_img": "images/individual/alana.jpg",
+			"fun_img": "images/individual/alanaFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -127,8 +127,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
 			"personal_site": "https://aspenhumphrey.github.io/",
 			"github_url": "https://github.com/AspenHumphrey",
-			"pro_img": "../images/individual/aspen.jpg",
-			"fun_img": "../images/individual/aspenFun.jpg",
+			"pro_img": "images/individual/aspen.jpg",
+			"fun_img": "images/individual/aspenFun.jpg",
 			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
 			"soundcloud_url": null
 		},
@@ -138,8 +138,8 @@ module.exports={
 			"personal_site": "https://bshunk.github.io/",
 			"github_url": "https://github.com/bshunk",
 			"about_me": "I have always had a passion for solving problems. Coming from a mental health and construction background, coding for me has been the perfect mixture of creative design and high level problem solving. I find enjoyment en exploring an idea based off a client and seeing how far I can take it functionally and creatively.",
-			"pro_img": "../images/individual/bobby.jpg",
-			"fun_img": "../images/individual/bobbyFun.jpg",
+			"pro_img": "images/individual/bobby.jpg",
+			"fun_img": "images/individual/bobbyFun.jpg",
 			"soundcloud_url": null
 		},
 		{
@@ -148,8 +148,8 @@ module.exports={
 			"personal_site": "http://dbrown.tech/",
 			"github_url": "https://github.com/Adobe-Android",
 			"about_me": "After attending college for system administration and diving into computer hardware in my free time, I decided to alter my course and attend Nashville Software school to pursue my passion for developing software. I've always enjoyed building things and I crave helping others solve problems. I look forward to the many years of learning and software development ahead.",
-			"pro_img": "../images/individual/davidbrown.jpg",
-			"fun_img": "../images/individual/davidbrownFun.jpg",
+			"pro_img": "images/individual/davidbrown.jpg",
+			"fun_img": "images/individual/davidbrownFun.jpg",
 			"soundcloud_url": null
 		},
 		{
@@ -157,8 +157,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/david-regan-88bb2014a/",
 			"personal_site": null,
 			"github_url": "https://github.com/dregan35",
-			"pro_img": "../images/individual/davidregan.jpg",
-			"fun_img": "../images/individual/davidreganFun.jpg",
+			"pro_img": "images/individual/davidregan.jpg",
+			"fun_img": "images/individual/davidreganFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -167,8 +167,8 @@ module.exports={
 			"linkedIn_url": null,
 			"personal_site": null,
 			"github_url": null,
-			"pro_img": "../images/individual/dustin.jpg",
-			"fun_img": "../images/individual/dustinFun.jpg",
+			"pro_img": "images/individual/dustin.jpg",
+			"fun_img": "images/individual/dustinFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -177,8 +177,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/joshuamlloyd/",
 			"personal_site": "http://www.joshualloyd.com/",
 			"github_url": "https://github.com/joshualloyd",
-			"pro_img": "../images/individual/joshlloyd.jpg",
-			"fun_img": "../images/individual/joshlloydFun.jpg",
+			"pro_img": "images/individual/joshlloyd.jpg",
+			"fun_img": "images/individual/joshlloydFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -188,8 +188,8 @@ module.exports={
 			"personal_site": "http://Yoshiya88.github.io/",
 			"github_url": "https://github.com/Yoshiya88",
 			"about_me": "I have always had a passion for language as a former ESL teacher, and after discovering programming I immediately fell in love with it. Programming has given me an opportunity to express my creativity as well as push myself mentally. I enjoy challenges and am driven to explore the intricacies of programming as a foreign language.",
-			"pro_img": "../images/individual/joshmeyers.jpg",
-			"fun_img": "../images/individual/joshmeyersFun.jpg",
+			"pro_img": "images/individual/joshmeyers.jpg",
+			"fun_img": "images/individual/joshmeyersFun.jpg",
 			"soundcloud_url": null
 		},
 		{
@@ -197,8 +197,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
 			"personal_site": "julessepulveda.io",
 			"github_url": "https://github.com/julessep",
-			"pro_img": "../images/individual/jules.jpg",
-			"fun_img": "../images/individual/julesFun.jpg",
+			"pro_img": "images/individual/jules.jpg",
+			"fun_img": "images/individual/julesFun.jpg",
 			"about_me": null,
 			"soundcloud_url": null
 		},
@@ -207,8 +207,8 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/samuel-staff-4790b7143",
 			"personal_site": null,
 			"github_url": "https://github.com/Staffmaster00",
-			"pro_img": "../images/individual/samstaff.jpg",
-			"fun_img": "../images/individual/samstaffFun.jpg",
+			"pro_img": "images/individual/samstaff.jpg",
+			"fun_img": "images/individual/samstaffFun.jpg",
 			"about_me": "What drew me to software development is the problem solving aspect. I enjoy the feeling of making a new application and improving its value as a part of building a better future! It meshes well with what I’ve already been doing and will provide a new outlet for my creative skills.",
 			"soundcloud_url": null
 		}
@@ -336,8 +336,9 @@ function toProPic() {
 
 $('#darkBtn').on('click', () => {
 	$('#darkBtn').addClass('hide');
+
 	$('#regBtn').removeClass('hide');
-	$('body').addClass('fun-theme');
+	$('body').addClass('darkThemedBg');
 	$('.fun-pic').removeClass('hide');
 	$('.fun-pic').removeClass('opaque-pic');
 	$('.profile-pic').addClass('hide');
@@ -348,7 +349,7 @@ $('#darkBtn').on('click', () => {
 $('#regBtn').on('click', () => {
 	$('#darkBtn').removeClass('hide');
 	$('#regBtn').addClass('hide');
-	$('body').removeClass('fun-theme');
+	$('body').removeClass('darkThemedBg');
 	$('.profile-pic').removeClass('hide');
 	$('.profile-pic').removeClass('opaque-pic');
 	$('.fun-pic').addClass('hide');
@@ -19022,7 +19023,7 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
     + "</h4>\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.about_me || (depth0 != null ? depth0.about_me : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"about_me","hash":{},"data":data}) : helper)))
-    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body profile-links d-flex justify-content-around\"> \n				<!-- personal site if it exists -->\n"
+    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body d-flex justify-content-around\"> \n				<!-- personal site if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.personal_site : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				<!-- github profile if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.github_url : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
@@ -19069,7 +19070,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col-6 col-md-4 col-lg-2 text-center\">\n		<img class=\"img-fluid logo-img w-75 img-thumbnail\" src=\"./images/logos/"
+  return "	<div class=\"col-6 col-md-4 col-lg-2 text-center\">\n		<img class=\"img-fluid logo-img w-75\" src=\"./images/logos/"
     + alias4(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data}) : helper)))
     + ".png\">\n		<p class=\"logo-title\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
