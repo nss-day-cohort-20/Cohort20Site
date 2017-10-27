@@ -168,6 +168,19 @@ section {
 
 	article {
 		padding: 2rem;
+
+		a {
+			color: $primary-color;
+
+			&:hover {
+				color: $accent-color;
+			}
+		}
+
+		blockquote {
+			font-style: italic;
+			padding-left: 2rem;
+		}
 	}
 }
 
