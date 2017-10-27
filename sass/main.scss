@@ -48,11 +48,12 @@ i {
 		}
 	}
 
-	a {
-		color: $fun-accent-color;
+	a,
+	i {
+		color: $dark;
 
 		&:hover {
-			color: $fun-secondary-color;
+			color: $fun-accent-color;
 		}
 	}
 
