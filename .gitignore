@@ -48,5 +48,5 @@ Thumbs.db
 /lib/.sass-cache
 /.sass-cache/
 
-/css/**.map
+**/main.css.map
 
