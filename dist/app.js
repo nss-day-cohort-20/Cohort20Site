@@ -188,7 +188,7 @@ module.exports={
 			"personal_site": "http://Yoshiya88.github.io/",
 			"github_url": "https://github.com/Yoshiya88",
 			"about_me": "I have always had a passion for language as a former ESL teacher, and after discovering programming I immediately fell in love with it. Programming has given me an opportunity to express my creativity as well as push myself mentally. I enjoy challenges and am driven to explore the intricacies of programming as a foreign language.",
-			"pro_img": "images/individual/joshmeyers.jpg",
+			"pro_img": "images/individual/joshMeyers.jpg",
 			"fun_img": "images/individual/joshmeyersFun.jpg",
 			"soundcloud_url": null
 		},
