@@ -27,13 +27,31 @@ a {
 
 //DARK THEME
 .darkThemedBg {
-	background-color: $dark;
-	color: $fun-secondary-color;
+	background-color: $fun-secondary-color;
+	color: $light;
 	font-family: $fun-font-stack;
+
+	.container {
+		background-color: $dark;
+	}
+
+	nav {
+		a {
+			color: $light;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
+	}
 
 	section {
 		header {
-			background-color: $dark;
+			background-color: $fun-primary-color;
+
+			.container {
+				background-color: inherit;
+			}
 		}
 	}
 
@@ -41,9 +59,6 @@ a {
 		font-family: $font-stack;
 	}
 
-	.container {
-		background-color: $dark;
-	}
 }
 
 // DARK THEME BUTTON
@@ -68,9 +83,13 @@ a {
 // NAVBAR
 .navbar {
 	background-color: $dark;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	color: $primary-color;
 	z-index: 4;
-	// box-shadow: 1px 10px 5px gray;
+
+	.navbar-brand {
+		color: $light;
+	}
 
 	// nav links
 	a {
@@ -199,6 +218,10 @@ section {
 // TECHNOLOGIES GRID
 .logo-title {
 	padding: 1.5rem 0;
+}
+
+.logo-img {
+	background-color: $light;
 }
 
 // FOOTER
