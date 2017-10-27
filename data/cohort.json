@@ -13,12 +13,12 @@
 		{
 			"name": "Jon Roberts",
 			"linkedIn_url": "https://www.linkedin.com/in/jon-roberts",
-			"personal_site": null,
+			"personal_site": "http://www.thejonroberts.com",
 			"github_url": "https://github.com/thejonroberts",
 			"pro_img": "../images/individual/jon.jpg",
 			"fun_img": "../images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
-			"about_me": null,
+			"about_me": "I have a background in math education and hospitality. I view software development as a craft, and love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn.",
 			"soundcloud_url": null
 		},
 		{
@@ -38,15 +38,14 @@
 			"github_url": "https://github.com/megbrown",
 			"pro_img": "../images/individual/megan.jpg",
 			"fun_img": "../images/individual/meganFun.jpg",
-			"about_me":
-				"My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
+			"about_me": "My interest in programming originated during my master’s final project when I built a website for a historic site in Charleston, SC. I am looking forward to applying the software development skills I have learned to many more applications.",
 			"soundcloud_url": null
 		},
 		{
 			"name": "Greta Moseley",
 			"linkedIn_url": "https://www.linkedin.com/in/greta-moseley-93076a51/",
- 			"personal_site": " https://mozecode.github.io/portfoliosite/",
- 			"github_url": "https://github.com/mozecode",
+			"personal_site": " https://mozecode.github.io/portfoliosite/",
+			"github_url": "https://github.com/mozecode",
 			"pro_img": "../images/individual/greta.jpg",
 			"fun_img": "../images/individual/gretaFun.jpg",
 			"about_me": "Construction project manager, Latin (language) lover, and geeky goddess in love with the craft of coding!",
@@ -54,22 +53,22 @@
 		},
 		{
 			"name": "Chris Mellor",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
+			"linkedIn_url": "https: //www.linkedin.com/in/chris-mellor/",
+			"personal_site": "www.chrismellor.net",
+			"github_url": "https://github.com/chrismellor08",
+			"about_me": "Perpetually finding ways to marry my love for the creative process and my affinity for logic/critical thinking. Probably making people laugh in the process. I took a test that told me I was a Virtuoso, and I like the way that sounds.",
 			"pro_img": "../images/individual/chris.jpg",
 			"fun_img": "../images/individual/chrisFun.jpg",
-			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
-			"name": "Jason Rial",
-			"linkedIn_url": null,
+			"name": "Jason Monahan-Rial",
+			"linkedIn_url": "https://www.linkedin.com/in/jason-monahan-rial-a72b3914a/",
+			"github_url": "https://github.com/An-AngryBear",
+			"about_me": "A full-stack apprentice software developer with strong communication and problem-solving skills. Always looking to expand my skill base and absorb knowledge.",
 			"personal_site": null,
-			"github_url": null,
 			"pro_img": "../images/individual/jason.jpg",
 			"fun_img": "../images/individual/jasonFun.jpg",
-			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
@@ -84,12 +83,12 @@
 		},
 		{
 			"name": "Glen Vollmer",
-			"linkedIn_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/glenvollmer/",
 			"personal_site": null,
-			"github_url": null,
+			"github_url": "https://github.com/glenvollmer",
 			"pro_img": "../images/individual/glen.jpg",
 			"fun_img": "../images/individual/glenFun.jpg",
-			"about_me": null,
+			"about_me": "Hey! A little about me, I am a Junior Software Developer currently attending Nashville Software School focusing on web development with Javascript and Node.js. I enjoy Learning, Tinkering, and Creating. When I am not cracking the code I enjoy making and indulging in art, film, and music",
 			"soundcloud_url": null
 		},
 		{
@@ -99,8 +98,7 @@
 			"github_url": "https://github.com/jevonthomas",
 			"pro_img": "../images/individual/jevon.jpg",
 			"fun_img": "../images/individual/jevonFun2.jpg",
-			"about_me":
-				"Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
+			"about_me": "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
 			"soundcloud_url": null
 		},
 		{
@@ -130,28 +128,27 @@
 			"github_url": "https://github.com/AspenHumphrey",
 			"pro_img": "../images/individual/aspen.jpg",
 			"fun_img": "../images/individual/aspenFun.jpg",
-			"about_me":
-				"I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
+			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
 			"soundcloud_url": null
 		},
 		{
 			"name": "Bobby Shunk",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/bobby-shunk-21043513a/",
+			"personal_site": "https://bshunk.github.io/",
+			"github_url": "https://github.com/bshunk",
+			"about_me": "I have always had a passion for solving problems. Coming from a mental health and construction background, coding for me has been the perfect mixture of creative design and high level problem solving. I find enjoyment en exploring an idea based off a client and seeing how far I can take it functionally and creatively.",
 			"pro_img": "../images/individual/bobby.jpg",
 			"fun_img": "../images/individual/bobbyFun.jpg",
-			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
 			"name": "David Brown",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/david-brown-811bab99/",
+			"personal_site": "http://dbrown.tech/",
+			"github_url": "https://github.com/Adobe-Android",
+			"about_me": "After attending college for system administration and diving into computer hardware in my free time, I decided to alter my course and attend Nashville Software school to pursue my passion for developing software. I've always enjoyed building things and I crave helping others solve problems. I look forward to the many years of learning and software development ahead.",
 			"pro_img": "../images/individual/davidbrown.jpg",
 			"fun_img": "../images/individual/davidbrownFun.jpg",
-			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
@@ -185,13 +182,13 @@
 			"soundcloud_url": null
 		},
 		{
-			"name": "Josh Meyers",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
+			"name": "Joshua Meyers",
+			"linkedIn_url": "https://www.linkedin.com/in/joshua-meyers-2a7399149/",
+			"personal_site": "http://Yoshiya88.github.io/",
+			"github_url": "https://github.com/Yoshiya88",
+			"about_me": "I have always had a passion for language as a former ESL teacher, and after discovering programming I immediately fell in love with it. Programming has given me an opportunity to express my creativity as well as push myself mentally. I enjoy challenges and am driven to explore the intricacies of programming as a foreign language.",
 			"pro_img": "../images/individual/joshmeyers.jpg",
 			"fun_img": "../images/individual/joshmeyersFun.jpg",
-			"about_me": null,
 			"soundcloud_url": null
 		},
 		{
@@ -206,12 +203,12 @@
 		},
 		{
 			"name": "Sam Staff",
-			"linkedIn_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/samuel-staff-4790b7143",
 			"personal_site": null,
-			"github_url": null,
+			"github_url": "https://github.com/Staffmaster00",
 			"pro_img": "../images/individual/samstaff.jpg",
 			"fun_img": "../images/individual/samstaffFun.jpg",
-			"about_me": null,
+			"about_me": "What drew me to software development is the problem solving aspect. I enjoy the feeling of making a new application and improving its value as a part of building a better future! It meshes well with what I’ve already been doing and will provide a new outlet for my creative skills.",
 			"soundcloud_url": null
 		}
 	]
