@@ -1,4 +1,5 @@
 @import 'variables';
+/* eslint-disable max-len */
 
 // basic layout
 html {
@@ -8,41 +9,107 @@ html {
 // FONTS AND THEME
 body {
 	background-color: $secondary-color;
+	background-image: url('/images/03.png');
 	color: $dark;
 	font-family: $font-stack;
-	padding-top: 60px;
+	padding-top: 40px;
+}
+
+// links (& social icons in profile grid)
+a,
+i {
+	color: $dark;
+
+	&:hover {
+		color: $primary-color;
+		text-decoration: none;
+	}
+}
+
+button {
+	i {
+		color: inherit;
+	}
 }
 
 //DARK THEME
-.darkThemedBg {
-	background-color: $dark;
-	color: $blood-red;
-
-	section {
-		header {
-			background-color: $dark;
-		}
-	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.navbar {
-		a {
-			font-family: $dark-font;
-		}
-	}
+.fun-theme {
+	background-color: $fun-secondary-color;
+	color: $light;
+	font-family: $fun-font-stack;
 
 	.container {
 		background-color: $dark;
 	}
+
+	nav {
+
+		a,
+		i {
+			color: $light;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
+	}
+
+	a,
+	i {
+		color: $fun-secondary-color;
+
+		&:hover {
+			color: $fun-accent-color;
+		}
+	}
+
+	.card {
+		color: $dark;
+
+		a,
+		i {
+			color: $dark;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
+	}
+
+	button {
+		i {
+			color: inherit;
+		}
+	}
+
+	section {
+		header {
+			background-color: $fun-primary-color;
+
+			.container {
+				background-color: inherit;
+			}
+		}
+	}
+
+	p {
+		font-family: $font-stack;
+	}
+
+	footer {
+		a {
+			color: $light;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
+	}
+
 }
 
 // DARK THEME BUTTON
-.darkThemeBtn {
+.fun-theme-btn {
 	bottom: 10px;
 	position: fixed;
 	right: 10px;
@@ -50,16 +117,6 @@ body {
 
 	i {
 		font-size: 2em;
-	}
-}
-
-// links (& social icons in profile grid)
-a {
-	color: $dark;
-
-	&:hover {
-		color: $primary-color;
-		text-decoration: none;
 	}
 }
 
@@ -72,13 +129,19 @@ a {
 
 // NAVBAR
 .navbar {
-	background-color: $secondary-color;
+	background-color: $dark;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	color: $primary-color;
+	font-size: 1.3rem;
 	z-index: 4;
-	// box-shadow: 1px 10px 5px gray;
+
+	.navbar-brand {
+		color: $light;
+	}
 
 	// nav links
-	a {
+	a,
+	i {
 		color: $primary-color;
 
 		&:hover {
@@ -94,12 +157,12 @@ a {
 // SECTIONS/HEADERS
 section {
 	.container {
-		// TODO - this should change with color pallette
-		background-color: #fff;
+		background-color: $light;
 	}
 
 	header {
 		background-color: $primary-color;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 		padding: 1.5rem;
 		width: 100%;
 
@@ -115,6 +178,19 @@ section {
 
 	article {
 		padding: 2rem;
+
+		a {
+			color: $primary-color;
+
+			&:hover {
+				color: $accent-color;
+			}
+		}
+
+		blockquote {
+			font-style: italic;
+			padding-left: 2rem;
+		}
 	}
 }
 
@@ -170,6 +246,10 @@ section {
 	margin-bottom: 1rem;
 }
 
+.card-body {
+	font-size: 0.95rem;
+}
+
 .profile-pic {
 	display: block;
 	height: auto;
@@ -197,17 +277,26 @@ section {
 	position: absolute;
 }
 
+.profile-links {
+	font-size: 1.5rem;
+}
+
 // TECHNOLOGIES GRID
 .logo-title {
 	padding: 1.5rem 0;
 }
 
+.logo-img {
+	background-color: $light;
+}
+
 // FOOTER
-#footer {
-	background-color: $secondary-color;
+footer {
+	background-color: $dark;
 	color: $primary-color;
 
 	ul {
+		margin-bottom: 0;
 		padding: 0.6rem;
 	}
 
@@ -223,18 +312,19 @@ section {
 		&:hover {
 			color: $light;
 		}
-
-		i {
-			margin-right: 10px;
-		}
 	}
 }
 
 @media only screen and (max-width: 485px) {
-	#footer ul li {
-		display: block;
+	footer {
+		ul {
+			li {
+				display: block;
+			}
+		}
 	}
 }
+
 
 // HIDE CLASS
 .hide {

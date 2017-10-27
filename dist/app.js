@@ -336,9 +336,8 @@ function toProPic() {
 
 $('#darkBtn').on('click', () => {
 	$('#darkBtn').addClass('hide');
-
 	$('#regBtn').removeClass('hide');
-	$('body').addClass('darkThemedBg');
+	$('body').addClass('fun-theme');
 	$('.fun-pic').removeClass('hide');
 	$('.fun-pic').removeClass('opaque-pic');
 	$('.profile-pic').addClass('hide');
@@ -349,7 +348,7 @@ $('#darkBtn').on('click', () => {
 $('#regBtn').on('click', () => {
 	$('#darkBtn').removeClass('hide');
 	$('#regBtn').addClass('hide');
-	$('body').removeClass('darkThemedBg');
+	$('body').removeClass('fun-theme');
 	$('.profile-pic').removeClass('hide');
 	$('.profile-pic').removeClass('opaque-pic');
 	$('.fun-pic').addClass('hide');
@@ -19023,7 +19022,7 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
     + "</h4>\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.about_me || (depth0 != null ? depth0.about_me : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"about_me","hash":{},"data":data}) : helper)))
-    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body d-flex justify-content-around\"> \n				<!-- personal site if it exists -->\n"
+    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body profile-links d-flex justify-content-around\"> \n				<!-- personal site if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.personal_site : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				<!-- github profile if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.github_url : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
@@ -19070,7 +19069,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col-6 col-md-4 col-lg-2 text-center\">\n		<img class=\"img-fluid logo-img w-75\" src=\"./images/logos/"
+  return "	<div class=\"col-6 col-md-4 col-lg-2 text-center\">\n		<img class=\"img-fluid logo-img w-75 img-thumbnail\" src=\"./images/logos/"
     + alias4(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data}) : helper)))
     + ".png\">\n		<p class=\"logo-title\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
