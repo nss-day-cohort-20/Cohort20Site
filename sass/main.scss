@@ -26,6 +26,12 @@ i {
 	}
 }
 
+button {
+	i {
+		color: inherit;
+	}
+}
+
 //DARK THEME
 .darkThemedBg {
 	background-color: $fun-secondary-color;
@@ -50,12 +56,29 @@ i {
 
 	a,
 	i {
-		color: $dark;
+		color: $fun-secondary-color;
 
 		&:hover {
 			color: $fun-accent-color;
 		}
 	}
+
+	.card {
+		a,
+		i {
+			color: $dark;
+
+			&:hover {
+				color: $fun-accent-color;
+			}
+		}
+}
+
+	button {
+		i {
+			color: inherit;
+		}
+}
 
 	section {
 		header {
