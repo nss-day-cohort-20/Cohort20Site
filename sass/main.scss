@@ -33,7 +33,7 @@ button {
 }
 
 //DARK THEME
-.darkThemedBg {
+.fun-theme {
 	background-color: $fun-secondary-color;
 	color: $light;
 	font-family: $fun-font-stack;
@@ -64,6 +64,8 @@ button {
 	}
 
 	.card {
+		color: $dark;
+
 		a,
 		i {
 			color: $dark;
@@ -94,14 +96,10 @@ button {
 		font-family: $font-stack;
 	}
 
-	.card {
-		color: $dark;
-	}
-
 }
 
 // DARK THEME BUTTON
-.darkThemeBtn {
+.fun-theme-btn {
 	bottom: 10px;
 	position: fixed;
 	right: 10px;
@@ -223,6 +221,10 @@ section {
 .card {
 	background-color: $light;
 	margin-bottom: 1rem;
+}
+
+.card-body {
+	font-size: 0.95rem;
 }
 
 .profile-pic {
