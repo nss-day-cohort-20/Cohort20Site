@@ -29,7 +29,7 @@ module.exports={
 			"github_url": "https://github.com/rian501",
 			"pro_img": "images/individual/emily.jpg",
 			"fun_img": "images/individual/emilyFun.jpg",
-			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself.",
+			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself. I'm so happy to be learning such a versatile foreign language. From Classical Latin to Japanese to Javascript...!",
 			"soundcloud_url": null
 		},
 		{
@@ -75,11 +75,11 @@ module.exports={
 		{
 			"name": "Cait Rocco",
 			"linkedIn_url": "https://www.linkedin.com/in/cait-rocco/",
-			"personal_site": "https://www.caitrocco.com",
+			"personal_site": "http://www.caitrocco.com",
 			"github_url": "https://github.com/cait-rocco",
 			"pro_img": "images/individual/cait.jpg",
 			"fun_img": "images/individual/caitFun.jpg",
-			"about_me": "My goal is to work collaboratively, finding creative ways to use code to communicate ideas, interact with users, and provide a positive experience.",
+			"about_me": "My passion for working in tech began when I was a Business Analyst after getting my degree in Computer Information Systems. After spending some time getting a masters in healthcare (Occupational Therapy), I'm excited to marry all of these skills and apply them to software development!",
 			"soundcloud_url": null
 		},
 		{
@@ -113,23 +113,13 @@ module.exports={
 			"soundcloud_url": null
 		},
 		{
-			"name": "Alana Smith",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
-			"pro_img": "images/individual/alana.jpg",
-			"fun_img": "images/individual/alanaFun.jpg",
-			"about_me": null,
-			"soundcloud_url": null
-		},
-		{
 			"name": "Aspen Humphrey",
 			"linkedIn_url": "https://www.linkedin.com/in/aspen-humphrey-b61186133/",
 			"personal_site": "https://aspenhumphrey.github.io/",
 			"github_url": "https://github.com/AspenHumphrey",
 			"pro_img": "images/individual/aspen.jpg",
 			"fun_img": "images/individual/aspenFun.jpg",
-			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software Development has given me an opportunity to make things for others that are excitable and helpful!",
+			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software development has given me an opportunity to make things for others that are exciting and helpful!",
 			"soundcloud_url": null
 		},
 		{
@@ -164,13 +154,13 @@ module.exports={
 		},
 		{
 			"name": "Dustin Walker",
-			"linkedIn_url": null,
-			"personal_site": null,
-			"github_url": null,
 			"pro_img": "images/individual/dustin.jpg",
 			"fun_img": "images/individual/dustinFun.jpg",
-			"about_me": null,
-			"soundcloud_url": null
+			"soundcloud_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/dustin-lee-walker",
+			"personal_site": "www.dlwalker.tech",
+			"github_url": "https://github.com/DLWalker1234",
+			"about_me":  "I enjoy challenges and supremely believe in doing things that make you uncomfortable. Building web-apps and back-end development is a passion and skill-set I am continually honing."
 		},
 		{
 			"name": "Joshua Lloyd",
@@ -185,7 +175,7 @@ module.exports={
 		{
 			"name": "Joshua Meyers",
 			"linkedIn_url": "https://www.linkedin.com/in/joshua-meyers-2a7399149/",
-			"personal_site": "http://Yoshiya88.github.io/",
+			"personal_site": "https://yoshiya88.github.io/profile/",
 			"github_url": "https://github.com/Yoshiya88",
 			"about_me": "I have always had a passion for language as a former ESL teacher, and after discovering programming I immediately fell in love with it. Programming has given me an opportunity to express my creativity as well as push myself mentally. I enjoy challenges and am driven to explore the intricacies of programming as a foreign language.",
 			"pro_img": "images/individual/joshMeyers.jpg",
@@ -210,6 +200,16 @@ module.exports={
 			"pro_img": "images/individual/samstaff.jpg",
 			"fun_img": "images/individual/samstaffFun.jpg",
 			"about_me": "What drew me to software development is the problem solving aspect. I enjoy the feeling of making a new application and improving its value as a part of building a better future! It meshes well with what I’ve already been doing and will provide a new outlet for my creative skills.",
+			"soundcloud_url": null
+		},
+		{
+			"name": "Alana Smith",
+			"linkedIn_url": null,
+			"personal_site": null,
+			"github_url": null,
+			"pro_img": "images/individual/alana.jpg",
+			"fun_img": "images/individual/alanaFun.jpg",
+			"about_me": null,
 			"soundcloud_url": null
 		}
 	]
