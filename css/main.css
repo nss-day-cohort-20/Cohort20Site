@@ -91,6 +91,9 @@ button i {
   .navbar .navbar-nav {
     width: 100%; }
 
+.no-transition {
+  transition: height 0.005s; }
+
 section .container {
   background-color: #fcfcfc; }
 section::before {

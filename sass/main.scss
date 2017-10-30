@@ -158,6 +158,10 @@ button {
 	}
 }
 
+.no-transition {
+	transition: height 0.01s;
+}
+
 // SECTIONS/HEADERS
 section {
 	.container {
