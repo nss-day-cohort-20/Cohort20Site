@@ -46,6 +46,8 @@ button i {
       .fun-theme .card a:hover,
       .fun-theme .card i:hover {
         color: #817fff; }
+  .fun-theme .card-title {
+    color: #817fff; }
   .fun-theme button i {
     color: inherit; }
   .fun-theme section header {
@@ -137,9 +139,11 @@ section article {
   .overlay-container:hover .overlay {
     height: 100%; }
 
-.card {
-  background-color: #fcfcfc;
+.card-group {
   margin-bottom: 1rem; }
+
+.card {
+  background-color: #fcfcfc; }
 
 .card-body {
   font-size: 0.95rem; }

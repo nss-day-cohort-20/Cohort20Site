@@ -76,6 +76,10 @@ button {
 		}
 	}
 
+	.card-title {
+		color: $fun-accent-color;
+	}
+
 	button {
 		i {
 			color: inherit;
@@ -241,9 +245,12 @@ section {
 	}
 }
 
+.card-group {
+	margin-bottom: 1rem;
+}
+
 .card {
 	background-color: $light;
-	margin-bottom: 1rem;
 }
 
 .card-body {
