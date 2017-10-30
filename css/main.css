@@ -92,7 +92,7 @@ button i {
     width: 100%; }
 
 .no-transition {
-  transition: height 0.005s; }
+  transition: height 0.01s; }
 
 section .container {
   background-color: #fcfcfc; }
@@ -155,7 +155,8 @@ section article {
   background-color: #fcfcfc; }
 
 .card-body {
-  font-size: 0.95rem; }
+  font-size: 0.95rem;
+  hyphens: manual; }
 
 .profile-pic {
   display: block;
