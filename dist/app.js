@@ -2,7 +2,7 @@
 module.exports={
 	"cohort": [
 		{
-			"name": "Arwa Kuterwad&shy;liwala",
+			"name": "Arwa Kuterwadliwala",
 			"linkedIn_url": "https://www.linkedin.com/in/arwask/",
 			"personal_site": "http://arwask.com",
 			"github_url": "https://github.com/Arwask",
@@ -368,8 +368,6 @@ function reloadAnimation() {
 		}, 200);
 	})(1);
 }
-
-// reloadAnimation();
 
 $('#reloadButton').on('click', () => {
 	$(`#groupPhoto12`).addClass('hide');

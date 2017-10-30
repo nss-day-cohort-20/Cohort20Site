@@ -73,8 +73,6 @@ function reloadAnimation() {
 	})(1);
 }
 
-// reloadAnimation();
-
 $('#reloadButton').on('click', () => {
 	$(`#groupPhoto12`).addClass('hide');
 	$(`#groupPhoto0`).removeClass('hide');
