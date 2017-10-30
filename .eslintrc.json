@@ -5,7 +5,8 @@
 		"jquery": true
 	},
 	"globals": {
-		"document": true
+		"document": true,
+		"window": true
 	},
 	"extends": "eslint:recommended"
 }
