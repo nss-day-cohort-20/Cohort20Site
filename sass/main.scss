@@ -76,6 +76,10 @@ button {
 		}
 	}
 
+	.card-title {
+		color: $fun-accent-color;
+	}
+
 	button {
 		i {
 			color: inherit;
@@ -160,6 +164,15 @@ section {
 		background-color: $light;
 	}
 
+	// fix id anchors for fixed nav - https://css-tricks.com/hash-tag-links-padding/
+	&::before {
+		content: ' ';
+		display: block;
+		height: 50px;
+		margin-top: -50px;
+		visibility: hidden;
+	}
+
 	header {
 		background-color: $primary-color;
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -241,9 +254,12 @@ section {
 	}
 }
 
+.card-group {
+	margin-bottom: 1rem;
+}
+
 .card {
 	background-color: $light;
-	margin-bottom: 1rem;
 }
 
 .card-body {

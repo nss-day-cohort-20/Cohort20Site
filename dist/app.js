@@ -19,7 +19,7 @@ module.exports={
 			"pro_img": "images/individual/jon.jpg",
 			"fun_img": "images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
-			"about_me": "I have a background in math education and hospitality. I view software development as a craft, and love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn.",
+			"about_me": "I have experience in math education, music, and the service industry. I view software development as a craft. I love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn!",
 			"soundcloud_url": null
 		},
 		{
@@ -137,7 +137,7 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/david-brown-811bab99/",
 			"personal_site": "http://dbrown.tech/",
 			"github_url": "https://github.com/Adobe-Android",
-			"about_me": "After attending college for system administration and diving into computer hardware in my free time, I decided to alter my course and attend Nashville Software school to pursue my passion for developing software. I've always enjoyed building things and I crave helping others solve problems. I look forward to the many years of learning and software development ahead.",
+			"about_me": "After attending college for system administration and diving into computer hardware in my free time, I decided to alter my course and attend Nashville Software school to pursue my passion for developing software. I look forward to the many years of learning and software development ahead.",
 			"pro_img": "images/individual/davidbrown.jpg",
 			"fun_img": "images/individual/davidbrownFun.jpg",
 			"soundcloud_url": null
@@ -160,7 +160,7 @@ module.exports={
 			"linkedIn_url": "https://www.linkedin.com/in/dustin-lee-walker",
 			"personal_site": "www.dlwalker.tech",
 			"github_url": "https://github.com/DLWalker1234",
-			"about_me":  "I enjoy challenges and supremely believe in doing things that make you uncomfortable. Building web-apps and back-end development is a passion and skill-set I am continually honing."
+			"about_me": "I enjoy challenges and supremely believe in doing things that make you uncomfortable. Building web-apps and back-end development is a passion and skill-set I am continually honing."
 		},
 		{
 			"name": "Joshua Lloyd",
@@ -19010,7 +19010,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col-xl-3 col-lg-4 col-sm-6\"> \n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
+  return "	<div class=\"col-xl-3 col-lg-4 col-sm-6 card-group\"> \n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
     + alias4(((helper = (helper = helpers.pro_img || (depth0 != null ? depth0.pro_img : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"pro_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
@@ -19018,41 +19018,41 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
     + alias4(((helper = (helper = helpers.fun_img || (depth0 != null ? depth0.fun_img : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fun_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
-    + "\" class=\"fun-pic card-img-top hide opaque-pic\"> \n				<div class=\"overlay\"> \n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
-    + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
-    + "</h4>\n						<p class=\"card-text\">"
+    + "\" class=\"fun-pic card-img-top hide opaque-pic\"> \n				<div class=\"overlay\"> \n					<div class=\"card-body description\">\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.about_me || (depth0 != null ? depth0.about_me : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"about_me","hash":{},"data":data}) : helper)))
-    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body profile-links d-flex justify-content-around\"> \n				<!-- personal site if it exists -->\n"
+    + "</p>\n					</div>\n				</div>\n			</div>\n			<div class=\"card-body\"> \n				<h4 class=\"card-title\">"
+    + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + "</h4>\n				<div class=\"profile-links d-flex justify-content-around\">\n					<!-- personal site if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.personal_site : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				<!-- github profile if it exists -->\n"
+    + "					<!-- github profile if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.github_url : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				<!-- linkedin page if it exists -->\n"
+    + "					<!-- linkedin page if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.linkedIn_url : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				<!-- soundcloud interview if it exists -->\n"
+    + "					<!-- soundcloud interview if it exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.soundcloud_url : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "			</div>\n		</div>\n	</div>\n";
+    + "				</div>\n			</div>\n		</div>\n	</div>\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "				<a href=\""
+  return "					<a href=\""
     + container.escapeExpression(((helper = (helper = helpers.personal_site || (depth0 != null ? depth0.personal_site : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"personal_site","hash":{},"data":data}) : helper)))
     + "\" class=\"fa fa-globe\" target=\"_blank\"></a>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "				<a href=\""
+  return "					<a href=\""
     + container.escapeExpression(((helper = (helper = helpers.github_url || (depth0 != null ? depth0.github_url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"github_url","hash":{},"data":data}) : helper)))
     + "\" class=\"fa fa-github\" target=\"_blank\"></a>\n";
 },"6":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "				<a href=\""
+  return "					<a href=\""
     + container.escapeExpression(((helper = (helper = helpers.linkedIn_url || (depth0 != null ? depth0.linkedIn_url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"linkedIn_url","hash":{},"data":data}) : helper)))
     + "\" class=\"fa fa-linkedin\" target=\"_blank\"></a>\n";
 },"8":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "				<a href=\""
+  return "					<a href=\""
     + container.escapeExpression(((helper = (helper = helpers.soundcloud_url || (depth0 != null ? depth0.soundcloud_url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"soundcloud_url","hash":{},"data":data}) : helper)))
     + "\" class=\"fa fa-soundcloud\" target=\"_blank\"></a>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
