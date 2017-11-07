@@ -19,7 +19,7 @@ module.exports={
 			"pro_img": "images/individual/jon.jpg",
 			"fun_img": "images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
-			"about_me": "I have experience in math education, music, and the service industry. I view software development as a craft. I love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn!",
+			"about_me": "I have experience in math education, the live music/service industry, and sales. I view software development as a craft. I love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn!",
 			"soundcloud_url": null
 		},
 		{
@@ -54,8 +54,8 @@ module.exports={
 		},
 		{
 			"name": "Chris Mellor",
-			"linkedIn_url": "https: //www.linkedin.com/in/chris-mellor/",
-			"personal_site": "www.chrismellor.net",
+			"linkedIn_url": "https://www.linkedin.com/in/chris-mellor/",
+			"personal_site": "http://www.chrismellor.net",
 			"github_url": "https://github.com/chrismellor08",
 			"about_me": "Perpetually finding ways to marry my love for the creative process and my affinity for logic/critical thinking. Probably making people laugh in the process. I took a test that told me I was a Virtuoso, and I like the way that sounds.",
 			"pro_img": "images/individual/chris.jpg",
@@ -85,7 +85,7 @@ module.exports={
 		{
 			"name": "Glen Vollmer",
 			"linkedIn_url": "https://www.linkedin.com/in/glenvollmer/",
-			"personal_site": null,
+			"personal_site": "https://glenvollmer.github.io/",
 			"github_url": "https://github.com/glenvollmer",
 			"pro_img": "images/individual/glen.jpg",
 			"fun_img": "images/individual/glenFun.jpg",
@@ -145,7 +145,7 @@ module.exports={
 		{
 			"name": "David Regan",
 			"linkedIn_url": "https://www.linkedin.com/in/david-regan-88bb2014a/",
-			"personal_site": null,
+			"personal_site": "https://dregan35.github.io/Portfolio/",
 			"github_url": "https://github.com/dregan35",
 			"pro_img": "images/individual/davidregan.jpg",
 			"fun_img": "images/individual/davidreganFun.jpg",
@@ -158,7 +158,7 @@ module.exports={
 			"fun_img": "images/individual/dustinFun.jpg",
 			"soundcloud_url": null,
 			"linkedIn_url": "https://www.linkedin.com/in/dustin-lee-walker",
-			"personal_site": "www.dlwalker.tech",
+			"personal_site": "http://www.dlwalker.tech",
 			"github_url": "https://github.com/DLWalker1234",
 			"about_me": "I enjoy challenges and supremely believe in doing things that make you uncomfortable. Building web-apps and back-end development is a passion and skill-set I am continually honing."
 		},
@@ -185,7 +185,7 @@ module.exports={
 		{
 			"name": "Jules Sepulveda",
 			"linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
-			"personal_site": "julessepulveda.io",
+			"personal_site": "http://julessepulveda.io",
 			"github_url": "https://github.com/julessep",
 			"pro_img": "images/individual/jules.jpg",
 			"fun_img": "images/individual/julesFun.jpg",
