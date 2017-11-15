@@ -68,7 +68,6 @@ module.exports={
 			"personal_site": "https://an-angrybear.github.io/Portfolio/",
 			"github_url": "https://github.com/An-AngryBear",
 			"about_me": "Full stack developer, sponge for knowledge, syntax samurai, breakfast for dinner",
-			"personal_site": null,
 			"pro_img": "images/individual/jason.jpg",
 			"fun_img": "images/individual/jasonFun.jpg",
 			"soundcloud_url": null
