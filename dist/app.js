@@ -19,7 +19,7 @@ module.exports={
 			"pro_img": "images/individual/jon.jpg",
 			"fun_img": "images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
-			"about_me": "I have experience in math education, the live music/service industry, and sales. I view software development as a craft. I love that as a developer, I will never run out of people to collaborate with, problems to solve, or things to learn!",
+			"about_me": "I have experience in math education, live music/service industry, and sales. I view software development as a craft. I love that I will never run out of people to collaborate with, problems to solve, or things to learn!",
 			"soundcloud_url": null
 		},
 		{
@@ -65,9 +65,9 @@ module.exports={
 		{
 			"name": "Jason Monahan-Rial",
 			"linkedIn_url": "https://www.linkedin.com/in/jason-monahan-rial-a72b3914a/",
+			"personal_site": "https://an-angrybear.github.io/Portfolio/",
 			"github_url": "https://github.com/An-AngryBear",
-			"about_me": "A full-stack apprentice software developer with strong communication and problem-solving skills. Always looking to expand my skill base and absorb knowledge.",
-			"personal_site": null,
+			"about_me": "Full stack developer, sponge for knowledge, syntax samurai, breakfast for dinner",
 			"pro_img": "images/individual/jason.jpg",
 			"fun_img": "images/individual/jasonFun.jpg",
 			"soundcloud_url": null
@@ -185,7 +185,7 @@ module.exports={
 		{
 			"name": "Jules Sepulveda",
 			"linkedIn_url": "https://www.linkedin.com/in/julessepulveda/",
-			"personal_site": "http://julessepulveda.io",
+			"personal_site": "https://julessep.github.io/personal-site",
 			"github_url": "https://github.com/julessep",
 			"pro_img": "images/individual/jules.jpg",
 			"fun_img": "images/individual/julesFun.jpg",
