@@ -9,7 +9,7 @@ module.exports={
 			"pro_img": "images/individual/arwa.jpg",
 			"fun_img": "images/individual/arwaFun.jpg",
 			"about_me": "I am an IT graduate with experience in teaching as a Trainee Lecturer and in love with programming. I enjoy problem solving and never want to miss the chance to learn something new.",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/arwa-kuterwadliwala?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Jon Roberts",
@@ -20,7 +20,7 @@ module.exports={
 			"fun_img": "images/individual/jonFun.jpg",
 			"fun_img_desc": "Jon tries to drink coffee in a motorcycle helmet",
 			"about_me": "I have experience in math education, live music/service industry, and sales. I view software development as a craft. I love that I will never run out of people to collaborate with, problems to solve, or things to learn!",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/jon-roberts?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Emily Lemmon",
@@ -30,7 +30,7 @@ module.exports={
 			"pro_img": "images/individual/emily.jpg",
 			"fun_img": "images/individual/emilyFun.jpg",
 			"about_me": "As an educator, I love learning and naturally want to change the world for the better; I think programming is an amazing tool with which such a person can arm herself. I'm so happy to be learning such a versatile foreign language. From Classical Latin to Japanese to Javascript...!",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/emily-lemmon?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Megan Brown",
@@ -50,7 +50,7 @@ module.exports={
 			"pro_img": "images/individual/greta.jpg",
 			"fun_img": "images/individual/gretaFun.jpg",
 			"about_me": "Construction project manager, Latin (language) lover, and geeky goddess in love with the craft of coding!",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/greta-moseley?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Chris Mellor",
@@ -70,7 +70,7 @@ module.exports={
 			"about_me": "Full stack developer, sponge for knowledge, syntax samurai, breakfast for dinner",
 			"pro_img": "images/individual/jason.jpg",
 			"fun_img": "images/individual/jasonFun.jpg",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/jason-monahan-rial?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Cait Rocco",
@@ -90,7 +90,7 @@ module.exports={
 			"pro_img": "images/individual/glen.jpg",
 			"fun_img": "images/individual/glenFun.jpg",
 			"about_me": "Hey! A little about me, I am a Junior Software Developer currently attending Nashville Software School focusing on web development with Javascript and Node.js. I enjoy Learning, Tinkering, and Creating. When I am not cracking the code I enjoy making and indulging in art, film, and music",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/glen-vollmer?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Jevon Thomas",
@@ -100,7 +100,7 @@ module.exports={
 			"pro_img": "images/individual/jevon.jpg",
 			"fun_img": "images/individual/jevonFun2.jpg",
 			"about_me": "Army veteran with over 4 years of active duty service and continued service in the Reserve. Made the decision to become a web developer because I have a passion for bringing designs to life online and building a strong web presence for businesses.",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/jevon-thomas?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Sam Baker",
@@ -120,7 +120,7 @@ module.exports={
 			"pro_img": "images/individual/aspen.jpg",
 			"fun_img": "images/individual/aspenFun.jpg",
 			"about_me": "I am drawn to development for the challenges, endless learning opportunities, and innovation shared in collaborative environments. Software development has given me an opportunity to make things for others that are exciting and helpful!",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/aspen-humphrey?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "Bobby Shunk",
@@ -130,7 +130,7 @@ module.exports={
 			"about_me": "I have always had a passion for solving problems. Coming from a mental health and construction background, coding for me has been the perfect mixture of creative design and high level problem solving. I find enjoyment en exploring an idea based off a client and seeing how far I can take it functionally and creatively.",
 			"pro_img": "images/individual/bobby.jpg",
 			"fun_img": "images/individual/bobbyFun.jpg",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/bobby-shunk?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "David Brown",
@@ -140,7 +140,7 @@ module.exports={
 			"about_me": "After attending college for system administration and diving into computer hardware in my free time, I decided to alter my course and attend Nashville Software school to pursue my passion for developing software. I look forward to the many years of learning and software development ahead.",
 			"pro_img": "images/individual/davidbrown.jpg",
 			"fun_img": "images/individual/davidbrownFun.jpg",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/david-brown?in=nashville-software-school/sets/cohort-20-demo-day"
 		},
 		{
 			"name": "David Regan",
@@ -150,7 +150,7 @@ module.exports={
 			"pro_img": "images/individual/davidregan.jpg",
 			"fun_img": "images/individual/davidreganFun.jpg",
 			"about_me": "I have had the passion to solve problems since I was a small child and that passion grew once I was introduced to technology. I revel in the opportunities computer software and hardware present me, whether it's soldiering points on a printed circuit board or creating an awesome application. I have the pleasure of attending Nashville Software School where opportunities to use the latest technologies in the industry have me excited to see what each new day brings.",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/david-regan?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Dustin Walker",
@@ -170,7 +170,7 @@ module.exports={
 			"pro_img": "images/individual/joshlloyd.jpg",
 			"fun_img": "images/individual/joshlloydFun.jpg",
 			"about_me": "I have always enjoyed making, revising and improving things. Prior to NSS I channeled that desire into in graphic design and eventually started down the path of creating for the web. Using my newfound skills I look forward to building the web, not just making it pretty.",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/joshua-lloyd?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Joshua Meyers",
@@ -180,7 +180,7 @@ module.exports={
 			"about_me": "I have always had a passion for language as a former ESL teacher, and after discovering programming I immediately fell in love with it. Programming has given me an opportunity to express my creativity as well as push myself mentally. I enjoy challenges and am driven to explore the intricacies of programming as a foreign language.",
 			"pro_img": "images/individual/joshMeyers.jpg",
 			"fun_img": "images/individual/joshmeyersFun.jpg",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/joshua-meyers?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Jules Sepulveda",
@@ -190,7 +190,7 @@ module.exports={
 			"pro_img": "images/individual/jules.jpg",
 			"fun_img": "images/individual/julesFun.jpg",
 			"about_me": null,
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/jules-sepulveda?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Sam Staff",
@@ -200,7 +200,7 @@ module.exports={
 			"pro_img": "images/individual/samstaff.jpg",
 			"fun_img": "images/individual/samstaffFun.jpg",
 			"about_me": "What drew me to software development is the problem solving aspect. I enjoy the feeling of making a new application and improving its value as a part of building a better future! It meshes well with what I’ve already been doing and will provide a new outlet for my creative skills.",
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/sam-staff?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		},
 		{
 			"name": "Alana Smith",
@@ -210,7 +210,7 @@ module.exports={
 			"pro_img": "images/individual/alana.jpg",
 			"fun_img": "images/individual/alanaFun.jpg",
 			"about_me": null,
-			"soundcloud_url": null
+			"soundcloud_url": "https://soundcloud.com/nashville-software-school/alana-smith?in=nashville-software-school/sets/cohort-20-demo-day#t=0:00"
 		}
 	]
 }
