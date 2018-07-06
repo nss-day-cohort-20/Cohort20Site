@@ -73,8 +73,6 @@ function reloadAnimation() {
 	})(1);
 }
 
-reloadAnimation();
-
 $('#reloadButton').on('click', () => {
 	$(`#groupPhoto12`).addClass('hide');
 	$(`#groupPhoto0`).removeClass('hide');
@@ -84,3 +82,7 @@ $('#reloadButton').on('click', () => {
 // current copyright year for footer
 let currentYear = new Date().getFullYear();
 $('#current-year').text(currentYear);
+
+$(document).ready(() => {
+	reloadAnimation();
+});

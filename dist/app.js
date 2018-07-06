@@ -369,8 +369,6 @@ function reloadAnimation() {
 	})(1);
 }
 
-reloadAnimation();
-
 $('#reloadButton').on('click', () => {
 	$(`#groupPhoto12`).addClass('hide');
 	$(`#groupPhoto0`).removeClass('hide');
@@ -380,6 +378,10 @@ $('#reloadButton').on('click', () => {
 // current copyright year for footer
 let currentYear = new Date().getFullYear();
 $('#current-year').text(currentYear);
+
+$(document).ready(() => {
+	reloadAnimation();
+});
 
 },{"../data/cohort.json":1,"../data/technologies.json":2,"../templates/photo_grid.hbs":52,"../templates/technologies.hbs":53,"handlebars":35,"jquery":49}],4:[function(require,module,exports){
 (function (process,__filename){
